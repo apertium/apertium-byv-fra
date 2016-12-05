@@ -11,14 +11,67 @@
   </sdefs>
 
    <section id="main" type="standard">
-      <!-- Define entries within <e> here. -->
-      <e><p><l>house<s n="n"/><s n="sg"/></l><r>house<s n="n"/><s n="sg"/></r></p></e>
+
+      <!-- SECTION: Nouns --->
+
+      <e><p><l>nyɑm<g>ntsə<s n="n"/><s n="GD"/></l><r>sea<b/>urchin<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>nə<b/>ta<s n="n"/><s n="GD"/></l><r>trade<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>tàmtə̀<s n="n"/><s n="GD"/></l><r>union<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l></p></e></l><r>twəʼ<s n="n"/><s n="GD"/><s n="GD"/></r></p></e>
+      <e><p><l>bə̀nntʉ̀n<s n="n"/><s n="GD"/></l><r>people<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>co<s n="vblex"/></l><r>thieve<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>buma<s n="n"/><s n="GD"/></l><r>orange<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>ngà<b/>tswìtə̀<s n="n"/><s n="GD"/></l><r>teacher<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>ghâ<b/>tswìtə̀<s n="n"/><s n="GD"/><s n="pl"></l><r>teachers<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>ntɑnə<s n="n"/><s n="GD"/></l><r>market<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l><b/>ndɑ̂<b/>ntɑnə<s n="n"/><s n="GD"/></l><r>store<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>lɛn<s n="adj"/><s n="GD"/></l><r>name<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>lôŋvʉ̀<s n="n"/><s n="GD"/></l><r>coputer<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>yanbàʼ<s n="n"/><s n="GD"/></l><r>car<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>dʉ̂ʼ<g><b/>ŋwàʼnǐ<b/>sòŋ<s n="n"/><s n="GD"/></l><r>riding<b/>school<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>ngɑm<b/>mɑkè<s n="n"/><s n="GD"/></l><r>monkey<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>nə̀<b/>biagə<s n="n"/><s n="GD"/></l><r>abolition<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>mbʉ̂<b/>cwɛd<s n="n"/><s n="GD"/></l><r>wild<b/>dog<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>busi<s n="n"/><s n="GD"/></l><r>cat<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>ngǒnntsə<s n="n"/><s n="GD"/></l><r>fish<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>cwɛd<s n="n"/><s n="GD"/></l><r>farm<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>ncwɛ̀d<s n="n"/><s n="GD"/></l><r>palace<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>nkətoʼo<s n="n"/><s n="GD"/></l><r>shoe<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>ndɑ̂<g><b/>ca<s n="n"/><s n="GD"/></l><r>prison<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>nzwə<s n="n"/><s n="GD"/></l><r>dress<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>kə̀bwɔ̀<s n="n"/><s n="GD"/></l><r>bad<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>mə̀bwɔ<s n="n"/><s n="GD"/></l><r>good<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>lɔ<s n="n"/><s n="GD"/></l><r>lazzy<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>màd<s n="n"/><s n="GD"/></l><r>habite<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>nə̀<b/>lɛ̀nə<s n="n"/><s n="GD"/></l><r>knowledge<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>zə̂nù<s n="n"/><s n="GD"/></l><r>wisdom<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>kə̀nà<s n="n"/><s n="GD"/></l><r>groundnuts<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>mfoŋə<s n="n"/><s n="GD"/></l><r>radio<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>ngʉɑyən<s n="n"/><s n="GD"/></l><r>television<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>kɑb<s n="n"/><s n="GD"/></l><r>phone<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>nyàm<s n="n"/><s n="GD"/></l><r>clock<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>mfə̀n<s n="n"/><s n="GD"/></l><r>king<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>nzwî<b/>mfə̀n<s n="n"/><s n="GD"/></l><r>queen<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>bɑ̀m<s n="n"/><s n="GD"/></l><r>bag<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>bɑ̂m<b/>ŋwàʼnì<s n="n"/><s n="GD"/></l><r>school<b/>bag<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>nkɔ̀nì<s n="n"/><s n="GD"/></l><r>amor<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>mɛ̂n<b/>fi<s n="n"/><s n="GD"/></l><r>baby<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>caŋ<s n="n"/><s n="GD"/></l><r>food<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>la<b/>nstə<b/>baʼ<s n="n"/><s n="GD"/></l><r>ship<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>dibɑ<b/>ntsə<s n="n"/><s n="GD"/></l><r>ocean<s n="n"/><s n="GD"/></r></p></e>
+
+      <e><p><l>mbwə<s n="n"/><s n="GD"/></l><r>chien<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>kù<s n="n"/><s n="GD"/></l><r>pied<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>saŋvʉ̀<s n="n"/><s n="GD"/></l><r>avion<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ngɔ̀<s n="n"/><s n="GD"/></l><r>monde<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>baʼ<s n="n"/><s n="GD"/></l><r>maison<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>mɑndùm<s n="n"/><s n="GD"/></l><r>homme<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ngòn<s n="n"/><s n="GD"/></l><r>fille<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ŋwə<s n="n"/><s n="GD"/></l><r>month<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>buʼ<b/>ŋwàʼnì<s n="n"/><s n="GD"/></l><r>livre<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tu<s n="vblex"/></l><r>tête<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tɑ<s n="n"/><s n="GD"/></l><r>père<s n="n"/><s n="m"/></r></p></e>
+      
    </section>
 </dictionary>
-
-<!-- 
-Resources: 
-    http://wiki.apertium.org/wiki/Bilingual_dictionary
-    http://wiki.apertium.org/wiki/Apertium_New_Language_Pair_HOWTO#Bilingual_dictionary
--->
 
