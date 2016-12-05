@@ -1,0 +1,19 @@
+* text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
+/README -text
+/apertium-byv-fra.byv-fra.dix -text
+/apertium-byv-fra.byv-fra.lrx -text
+/apertium-byv-fra.byv-fra.t1x -text
+/apertium-byv-fra.byv-fra.t2x -text
+/apertium-byv-fra.byv-fra.t3x -text
+/apertium-byv-fra.fra-byv.lrx -text
+/apertium-byv-fra.fra-byv.t1x -text
+/apertium-byv-fra.fra-byv.t2x -text
+/apertium-byv-fra.fra-byv.t3x -text
+/autogen.sh -text
+/configure.ac -text
+/modes.xml -text
