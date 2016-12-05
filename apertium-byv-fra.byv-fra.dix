@@ -21,7 +21,7 @@
 
    <section id="main" type="standard">
 
-      <!-- SECTION: Nouns --->
+      <!-- SECTION: Nouns -->
       
       <e><p><l>nə<b/>ta<s n="n"/><s n="ncl"/></l><r>commerce<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>tàmtə̀<s n="n"/><s n="cl5"/></l><r>union<s n="n"/><s n="f"/></r></p></e>
@@ -40,7 +40,7 @@
       <e><p><l>cwɛd<s n="n"/><s n="cl1"/></l><r>champ<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>ncwɛ̀d<s n="n"/><s n="cl1"/></l><r>palais<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>nkətoʼo<s n="n"/><s n="cl1"/></l><r>chaussure<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>ndɑ̂<g><b/>ca<s n="n"/><s n="cl1"/></l><r>prison<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ndɑ̂<b/>ca<s n="n"/><s n="cl1"/></l><r>prison<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>nzwə<s n="n"/><s n="cl1"/></l><r>habille<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>lɔ<s n="n"/><s n="cl5"/></l><r>paraisseu<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>màd<s n="n"/><s n="cl1"/></l><r>habitude<s n="n"/><s n="f"/></r></p></e>
@@ -71,7 +71,7 @@
    </section>
 
    <section id="check" type="standard">
-      <e><p><l>nyɑm<g>ntsə<s n="n"/><s n="cl1"/></l><r>oursin<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>nyɑm<b/>ntsə<s n="n"/><s n="cl1"/></l><r>oursin<s n="n"/><s n="GD"/></r></p></e>
       <e><p><l>bə̀nntʉ̀n<s n="n"/><s n="GD"/></l><r>personnes<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>ngà<b/>tswìtə̀<s n="n"/><s n="cl1"/></l><r>maitre<s n="n"/><s n="GD"/></r></p></e>
       <e><p><l>kə̀bwɔ̀<s n="n"/><s n="cl1"/></l><r>mauvais<s n="n"/><s n="GD"/></r></p></e> <!-- ADJ -->
@@ -80,7 +80,7 @@
       <e><p><l>nkɔ̀nì<s n="n"/><s n="GD"/></l><r>amour<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>mə̀bwɔ<s n="n"/><s n="cl1"/></l><r>bien<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>mɛ̂n<b/>fi<s n="n"/><s n="GD"/></l><r>bébé<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>ghâ<b/>tswìtə̀<s n="n"/><s n="cl6"/><s n="pl"></l><r>maitres<s n="n"/><s n="m"/></r></p></e> <!-- PLURAL, cl6??-->
+      <e><p><l>ghâ<b/>tswìtə̀<s n="n"/><s n="cl6"/></l><r>maitres<s n="n"/><s n="m"/></r></p></e> <!-- PLURAL, cl6??-->
       <e><p><l>dʉ̂ʼ<g><b/>ŋwàʼnǐ<b/>sòŋ</g><s n="n"/><s n="cl1"/></l><r>école<g><b/>de<b/>conduite</g><s n="n"/><s n="f"/></r></p></e>
       <e><p><l>nə̀<b/>biagə<s n="n"/><s n="GD"/></l><r>abolition<s n="n"/><s n="f"/></r></p></e>
       
