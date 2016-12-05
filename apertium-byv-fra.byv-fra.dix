@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
-   <!-- Define the alphabet below. -->
-  <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZ</alphabet>
+  <alphabet></alphabet>
 
   <sdefs>
-    <!-- Define symbol definitions within <sdef> here. -->
     <sdef n="n"     c="Noun"/>
-    <sdef n="sg"    c="Singular"/>
-    <sdef n="pl"    c="Plural"/>
+    <sdef n="m"     c="Masculine"/>
+    <sdef n="f"     c="Feminine"/>
+    <sdef n="cl1"   c="Class I"/>
+    <sdef n="cl2"   c="Class II"/>
+    <sdef n="cl3"   c="Class III"/>
+    <sdef n="cl4"   c="Class IV"/>
+    <sdef n="cl5"   c="Class V"/>
+    <sdef n="GD"    c="Gender/class to be determined"/>
   </sdefs>
 
    <section id="main" type="standard">
@@ -60,9 +64,9 @@
       <e><p><l>la<b/>nstə<b/>baʼ<s n="n"/><s n="GD"/></l><r>ship<s n="n"/><s n="GD"/></r></p></e>
       <e><p><l>dibɑ<b/>ntsə<s n="n"/><s n="GD"/></l><r>ocean<s n="n"/><s n="GD"/></r></p></e>
 
-      <e><p><l>mbwə<s n="n"/><s n="GD"/></l><r>chien<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>kù<s n="n"/><s n="GD"/></l><r>pied<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>saŋvʉ̀<s n="n"/><s n="GD"/></l><r>avion<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>mbwə<s n="n"/><s n="cl1"/></l><r>chien<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>kù<s n="n"/><s n="cl3"/></l><r>pied<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>saŋvʉ̀<s n="n"/><s n="cl5"/></l><r>avion<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>ngɔ̀<s n="n"/><s n="GD"/></l><r>monde<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>baʼ<s n="n"/><s n="GD"/></l><r>maison<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>mɑndùm<s n="n"/><s n="GD"/></l><r>homme<s n="n"/><s n="m"/></r></p></e>
