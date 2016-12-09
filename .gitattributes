@@ -16,4 +16,5 @@
 /apertium-byv-fra.fra-byv.t3x -text
 /autogen.sh -text
 /configure.ac -text
+dev/byv-fra.1.dix -text
 /modes.xml -text

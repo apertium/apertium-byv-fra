@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+  <alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZⱭƐƏƆɄabcdefghijklmnopqrstuvwxyzɑɛəɔʉŋʼꞋ</alphabet>
+                      <!--Alpabet Generale des Langues Camerounaise (AGLC for more)-->
+  <sdefs>
+    <sdef n="n"     c="Nom"/>
+    <sdef n="m"     c="Masculin"/>
+    <sdef n="f"     c="Feminin"/>
+    <sdef n="cl1"   c="Class I"/><!--singular-->
+    <sdef n="cl2"   c="Class II"/>
+    <sdef n="cl5"   c="Class V"/>
+    <sdef n="cl4"   c="Class IV"/>  <!--plural-->
+    <sdef n="cl5"   c="Class VI"/>
+    <sdef n="ncl"   c=" NO Class"/>
+    <sdef n="GD"    c="Gender/class to be determined"/>
+    <sdef n="sg"    c="Singulierr"/>
+    <sdef n="pl"    c="Pluriel"/>
+    <sdef n="sp"    c="Singulier / pluriel"/>
+    <sdef n="ind"   c="Indefinit"/>
+    <sdef n="acr"    c="Acronime"/>
+    <sdef n="top"    c="Toponyme"/>
+    <sdef n="ant"    c="Anthroponym"/>
+    <sdef n="al"     c="Autres"/>
+    <sdef n="pr"     c="Preposition"/>
+    <sdef n="cnjcoo" c="Conjonction de coordination"/>
+    <sdef n="cnjsub" c="Conjonction de subordination"/>
+    <sdef n="cnjadv" c="Conjonction adverbial"/>
+    <sdef n="prn"    c="Pronom"/>
+    <sdef n="subj"   c="Subjet"/>
+    <sdef n="obj"    c="Objet"/>
+    <sdef n="rel"    c="Relatif"/>
+    <sdef n="opt"    c="Optatif"/>
+    <sdef n="neg"    c="Negatif"/>
+    <sdef n="ref"    c="Reflexif"/>
+    <sdef n="ij"     c="Interjection"/>
+    <sdef n="adv"    c="Adverbe"/>
+    <sdef n="preadv" c="Preadverbe"/>
+    <sdef n="adj"    c="Adjectif)"/>
+    <sdef n="sint"   c="Synthetic"/>
+    <sdef n="comp"   c="Comparatif"/>
+    <sdef n="sup"    c="Superlatif"/>
+    <sdef n="itg"    c="Interrogatif"/>
+    <sdef n="vb"  c="Verb"/>
+    <sdef n="vbmod"  c="Verb modal"/>
+    <sdef n="vpart"  c="particule verbale"/>
+    <sdef n="inf"    c="Infinitif"/>
+    <sdef n="pri"    c="Present indicative"/>
+    <sdef n="pii"    c="Imperfect"/>
+    <sdef n="prh"    c="Present habituel"/>
+    <sdef n="pih"    c="Imperfect habituel"/>
+    <sdef n="cni"    c="Conditionelle"/>
+    <sdef n="imp"    c="Imperative"/>
+    <sdef n="past"   c="Past definite"/>
+    <sdef n="pp"     c="participe passé"/>
+    <sdef n="fti"    c="Future indicative"/>
+    <sdef n="p1"     c="1ére personne"/>
+    <sdef n="p2"     c="2émme personne"/>
+    <sdef n="p3"     c="3émme personne"/>
+    <sdef n="impers" c="Impersonel"/>
+    <sdef n="def"    c="Definit"/>
+    <sdef n="dem"    c="Demonstratif"/>
+    <sdef n="pos"    c="Possessif"/>
+    <sdef n="ord"    c="Ordinal"/>
+    <sdef n="sent"   c="End of sentence marker"/>
+    <sdef n="cm"     c="virgulle"/>
+    <sdef n="apos"   c="Apostrophe"/>
+    <sdef n="guio"   c="guillemet"/>
+    <sdef n="ND"     c="Niver da resisaat (Number for determination)"/>
+    <sdef n="iv"     c="Intransitive"/>
+    <sdef n="tv"     c="Transitive"/>
+  </sdefs>
+
+   <section id="main" type="standard">
+
+      <!-- SECTION: Nouns --->
+      
+   1  <e><p><l>nyɑm<g>ntsə<s n="n"/><s n="cl1"/><s n="sg"/></l><r>oursin<s n="n"/><s n="GD"/><s n="sg"/></r></p></e>
+      <e><p><l>nə<b/>ta<s n="n"/><s n="ncl"/></l><r>commerce<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>tàmtə̀<s n="n"/><s n="cl5"/></l><r>union<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l><r>twəʼ<s n="n"/><s n="cl5"/></l><r>nuit<s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>bə̀nntʉ̀n<s n="n"/><s n="GD"/><s n="pl"/></l><r>personnes<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>cò<s n="n"/><s n="cl3"/><s n="sg"/></l><r>histoire<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>buma<s n="n"/><s n="cl1"/><s n="sg"/></l><r>orange<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ngà<b/>tswìtə̀<s n="n"/><s n="cl1"/><s n="sg"/></l><r>maitre<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>ghâ<b/>tswìtə̀<s n="n"/><s n="cl6"/><s n="pl"></l><r>maitres<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ntɑnə<s n="n"/><s n="cl3"/><s n="sg"/></l><r>marché<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l><b/>ndɑ̂<b/>ntɑnə<s n="n"/><s n="cl1"/><s n="sg"/></l><r>boutique<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>lɛn<s n="n"/><s n="sg"/><s n="cl5"/></l><r>nom<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>lôŋvʉ̀<s n="n"/><s n="sg"/><s n="cl3"/></l><r>ordinateur<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>yanbàʼ<s n="n"/><s n="sg"/><s n="cl3"/></l><r>voiture<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>dʉ̂ʼ<g><b/>ŋwàʼnǐ<b/>sòŋ<s n="n"/><s n="cl1"/></l><r>école<b/>de<b/>conduite<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ngɑm<b/>mɑkè<s n="n"/><s n="cl1"/></l><r>singe<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>nə̀<b/>biagə<s n="n"/><s n="ncl"/></l><r>abolition<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>mbʉ̂<b/>cwɛd<s n="n"/><s n="cl3"/></l><r>chien<b/>sauvage<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>busi<s n="n"/><s n="cl1"/></l><r>chat<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ngǒnntsə<s n="n"/><s n="cl1"/></l><r>poison<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cwɛd<s n="n"/><s n="cl1"/></l><r>champ<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ncwɛ̀d<s n="n"/><s n="cl1"/></l><r>palais<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>nkətoʼo<s n="n"/><s n="cl1"/></l><r>chaussure<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ndɑ̂<g><b/>ca<s n="n"/><s n="cl1"/></l><r>prison<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>nzwə<s n="n"/><s n="cl1"/></l><r>habille<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>kə̀bwɔ̀<s n="n"/><s n="cl1"/></l><r>mauvais/e<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>mə̀bwɔ<s n="n"/><s n="cl1"/></l><r>bien<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>lɔ<s n="n"/><s n="cl5"/></l><r>paraisseu<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>màd<s n="n"/><s n="cl1"/></l><r>habitude<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>nə̀<b/>lɛ̀nə<s n="n"/><s n="GD"/></l><r>savoire<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>zə̂nù<s n="n"/><s n="cl5"/></l><r>sagesse<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>kə̀nà<s n="n"/><s n="cl1"/></l><r>arrachide<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>mfoŋə<s n="n"/><s n="cl1"/></l><r>radio<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ngʉɑyən<s n="n"/><s n="cl1"/></l><r>television<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>kɑb<s n="n"/><s n="cl1"/></l><r>téléphone<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>nyàm<s n="n"/><s n="cl3"/></l><r>horloge<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>mfə̀n<s n="n"/><s n="cl1"/></l><r>roi<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>nzwî<b/>mfə̀n<s n="n"/><s n="cl1"/></l><r>rène<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>bɑ̀m<s n="n"/><s n="cl3"/></l><r>sac<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>bɑ̂m<b/>ŋwàʼnì<s n="n"/><s n="GD"/></l><r>cartable<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>nkɔ̀nì<s n="n"/><s n="GD"/></l><r>amour<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>mɛ̂n<b/>fi<s n="n"/><s n="GD"/></l><r>bébé<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>caŋ<s n="n"/><s n="cl5"/></l><r>nurriture<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>la<b/>nstə<b/>baʼ<s n="n"/><s n="cl3"/></l><r>bateau<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>dibɑ<b/>ntsə<s n="n"/><s n="cl3"/></l><r>ocean<s n="n"/><s n="n"/></r></p></e>
+      <e><p><l>mbwə<s n="n"/><s n="cl1"/></l><r>chien<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>kù<s n="n"/><s n="cl3"/></l><r>pied<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>saŋvʉ̀<s n="n"/><s n="cl5"/></l><r>avion<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ngɔ̀<s n="n"/><s n="cl3"/></l><r>monde<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>baʼ<s n="n"/><s n="cl3"/></l><r>maison<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>mɑndùm<s n="n"/><s n="cl1"/></l><r>homme<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ngòn<s n="n"/><s n="cl1"/></l><r>fille<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ŋwə<s n="n"/><s n="cl1"/></l><r>month<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>buʼ<b/>ŋwàʼnì<s n="n"/><s n="cl1"/></l><r>livre<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tu<s n="n"/><s n="cl3"/></l><r>tête<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tɑ<s n="n"/><s n="cl1"/></l><r>père<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ndɑ̂<g>nkɑb<s n="n"/><s n="cl1"/><s n="sg"/></l><r>banque<s n="n"/><s n="GD"/><s n="sg"/></r></p></e>
+      <e><p><l>tôʼ<b/>mò<s n="n"/><s n="ncl"/></l><r>salon<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>tôʼ<b/>ndɑ<s n="n"/><s n="cl5"/></l><r>chambre<b/>à<b/>couché<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l><r>tàmtə̀<b/>ngɔ̀ngɔ̀<s n="n"/><s n="cl5"/></l><r>ONU<s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>kòglòg<s n="n"/><s n="GD"/><s n="sg"/></l><r>SIDA<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>tʉnə<s n="n"/><s n="cl5"/><s n="sg"/></l><r>ferre<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ncwɛn<s n="n"/><s n="cl1"/><s n="sg"/></l><r>bois<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>kêm<b/>ngɔ̌ngɔ̀<s n="n"/><s n="cl1"/><s n="sg"/></l><r>OMS<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tâ<b/>ngɔ̀<s n="n"/><s n="cl3"/><s n="sg"></l><r>president<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>tɑ̂<b/>bǎgngɔ̀<s n="n"/><s n="cl3"/><s n="sg"/></l><r>patron<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l><b/>ndɑ̂<b/>caŋ<s n="n"/><s n="cl5"/><s n="sg"/></l><r>restaurant<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>tɑ̂<b/>bǎgngɔ̀<s n="n"/><s n="sg"/><s n="cl3"/></l><r>gouverneur<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tɑ̂<b/>tǎŋngɔ̀<s n="n"/><s n="sg"/><s n="cl3"/></l><r>préfet<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>nkàʼ<s n="n"/><s n="sg"/><s n="cl3"/></l><r>lampe<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>toŋkù<s n="n"/><s n="cl1"/></l><r>police<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>bə̀fə̀<s n="n"/><s n="cl1"/></l><r>gendarme<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>nkə̀tuʼu<s n="n"/><s n="ncl"/></l><r>militaire<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>esclave<s n="n"/><s n="cl3"/></l><r>kuàn<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>bwoge<s n="n"/><s n="cl1"/></l><r>feu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ndɑ̂<b/>mbwogə<s n="n"/><s n="cl1"/></l><r>enfer<s n="n"/><s n="m"/></r></p></e>  <!--ohlala il fiat  chaud la bas-->
+      <e><p><l>nkʉ<s n="n"/><s n="cl1"/></l><r>corde<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>nco<s n="n"/><s n="cl1"/></l><r>bandit<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>mbɑ̂bunə<s n="n"/><s n="cl1"/></l><r>fou<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>nga<b/>kà<s n="n"/><s n="cl1"/></l><r>marabout<s n="n"/><s n="f"/></r></p></e>
+      
+    <!--verbs-->
+    <e><p><l>nə̀<b/>dùmdə̌<s n="vb"/></l><r>réchauffer<s n="vbl"/></r></p></e>  
+    <e><p><l>nə̀<b/>cobə<s n="vb"/></l><r>parler<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>cobtə<s n="vb"/></l><r>bavader<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>bamə<s n="vb"/></l><r>répondre<s n="vb"/></r></p></e>	
+    <e><p><l>nə̀<b/>shə̀ʼə<s n="vb"/></l><r>interdire<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tamə<s n="vb"/></l><r>viser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>fʉ̌<s n="vb"/></l><r>tromper<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kwàtə̌<s n="vb"/></l><r>réfléchir<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>na<s n="vb"/></l><r>préparer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>bǎm<b/>nǔm<b/>vʉ<s n="vb"/></l><r>ressusciter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>cʉàtə̌<s n="vb"/></l><r>déborder<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>bəʼtə̂<b/>ndɔ̌ndɔ̀<s n="vb"/></l><r>briser<g><b/>en<b/>morceaux</g><s n="vblex"/></r></p></e>
+    <e><p><l>nə̀<b/>kəbtə<s n="vb"/></l><r>découper<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kiɑ̀gə<s n="vb"/></l><r>délier<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>bàgtə̌<s n="vb"/></l><r>décrier<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>fɑ̌n<b/>nzə̀<s n="vb"/></l><r>égarer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>bagdə<s n="vb"/></l><r>endommager<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>màʼ<b/>ncʉâ<s n="vb"/></l><r>vaincre<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>ghə̌<s n="vb"/></l><r>faire<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tadtə<s n="vb"/></l><r>mentir<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>lǒ<s n="vb"/></l><r>quitter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>vɛ̀dtə̌<s n="vb"/></l><r>givrer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>biagə<s n="vb"/></l><r>étiendre<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<g><b/>co<b/>nshunə</g><s n="vb"/></l><r>entrer<g><b/>en<b/>amitié</g><s n="vb"/></r></p></e>
+    <e><p><l>troc’hañ<s n="vb"/></l><r>couper<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kaŋə<s n="vb"/></l><r>tourner<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>ghə̀dnǐ<s n="vb"/></l><r>troubler<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>lɑ̀btə̌<s n="vb"/></l><r>remercier<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>lɑ̀mə<s n="vb"/></l><r>sentir<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>lǒʼ<b/>mɛ̀n<b/>fàʼ<s n="vb"/></l><r>recruter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>bʉ<s n="vb"/></l><r>prométtre<s n="vb"/></r></p></e>	
+    <e><p><l>nə̀<b/>bʉ<s n="vb"/></l><r>annoncer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>bʉ<s n="vb"/></l><r>saluer<s n="vb"/></r></p></e>
+    <e><p><l>unaniñ<s n="vb"/></l><r>unir<s n="vb"/></r></p></e>	
+    <e><p><l>nə̀<b/>tamtə̌<s n="vb"/></l><r>unifier<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>ndǎ<b/>tû<s n="vb"/></l><r>punir<s n="vb"/></r></p></e>
+	  <e><p><l>nə̀<b/>tɔ̌<s n="vb"/></l><r>commander<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>lòʼ<b/>ngʉ̂<s n="vb"/></l><r>user<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>weʼe<s n="vb"/></l><r>voter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>yàtə̌<s n="vb"/></l><r>guérir<s n="vb"/></r></p></e>		
+    <e><p><l>nə̀<b/>kʉmtə<s n="vb"/></l><r>entasser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kʉmtə<s n="vb"/></l><r>rassembler<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tɔ<s n="vb"/></l><r>hurler<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>swɛnə<s n="vb"/></l><r>vendre<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kwimtə<s n="vb"/></l><r>souvenir<s n="vb"/></r></p></e>	
+    <e><p><l>nə̀<b/>kwàtə̌<s n="vb"/></l><r>réfléchir<s n="vb"/></r></p></e>	
+    <e><p><l>nə̀<b/>fitə<s n="vb"/></l><r>reposer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tsinə<s n="vb"/></l><r>arrêter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kwimtə<s n="vb"/></l><r>souvenir<s n="vb"/></r></p></e>	
+    <e><p><l>nə̀<b/>kwàtə̌<s n="vb"/></l><r>réfléchir<s n="vb"/></r></p></e>	
+     <e><p><l>nə̀<b/>tsìntə̌<s n="vb"/></l><r>pisser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>shəʼə<s n="vb"/></l><r>serrer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tsin<b/>nka<s n="vb"/></l><r>aligner<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>na<b/>nù<s n="vb"/></l><r>planifier<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/><s n="vb"/></l><r>disparaître<s n="vb"/></r></p></e>	
+    <e><p><l>nə̀<b/>ghoaʼa<s n="vb"/></l><r>jeter<s n="vb"/></r></p></e>	
+    <e><p><l>nə̀<b/>biag<b/>tɔ<s n="vb"/></l><r>boucher<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>càgtə̌<s n="vb"/></l><r>diriger<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>ndʉ̀mtə̌<s n="vb"/></l><r>sucrer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>finə<s n="vb"/></l><r>sucer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tɔ<b/>fin<s n="vb"/></l><r>siffler<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tâ<b/>ncù<s n="vb"/></l><r>débattre<s n="vb"/></r></p></e> <!--   se disputer -->
+    <e><p><l>nə̀<b/>kǎm<b/>ncà<s n="vb"/></l><r>attaquer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tə<b/>nǔ<b/>tû<s n="vb"/></l><r>accuser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kə̀ʼtə̌<s n="vb"/></l><r>tamiser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tonə<s n="vb"/></l><r>incendier<s n="vb"/></r></p></e>
+    <e><p><l>nə<b/>zwiʼtə<s n="vb"/></l><r>goûter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>bàgtə̌<s n="vb"/></l><r>décrire<s n="vb"/></r></p></e>	
+    <e><p><l>nə̀<b/>ghomə<s n="vb"/></l><r>attraper<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>vʉ̌<s n="vb"/></l><r>tomber<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/><s n="vb"/></l><r>éclater<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kʉ̌<s n="vb"/></l><r>fuir<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kʉ̌<b/>ndə<s n="vb"/></l><r>couvrir<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>cʉbə<s n="vb"/></l><r>tenir<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>sɔ̌<s n="vb"/></l><r>retirer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kwe<s n="vb"/></l><r>prendre<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tumə<s n="vb"/></l><r>sortir<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>fotə<s n="vb"/></l><r>ressembler<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tamə<s n="vb"/></l><r>tirer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>sɔ̌<s n="vb"/></l><r>retirer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>sɔ̌<b/>nkɑb<s n="vb"/></l><r>retirer<g><b/>de<b/>l’argent</g><s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>bàgtə̌<s n="vb"/></l><r>définir<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>maʼa<s n="vb"/></l><r>lancer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<g><b/>mǎʼ<b/>miɑg</g><s n="vb"/></l><r>jeter<g><b/>un<b/>oeil</g><s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kǐ<b/>ŋwàʼnì<s n="vb"/></l><r>documenter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>ghoʼo<s n="vb"/></l><r>grossir<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>məm<b/>ncù<s n="vb"/></l><r>taire<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tə<b/>mfìʼ<s n="vb"/></l><r>timbrer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>buʼu<s n="vb"/></l><r>sonner<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kǔm<s n="vb"/></l><r>atteindre<s n="vb"/></r></p></e> 
+    <e><p><l>nə̀<b/>dùmtə̌<s n="vb"/></l><r>chauffer<s n="vb"/></r></p></e>	
+    <e><p><l>nə̀<b/>lòʼ<b/>mbwə̀<s n="vb"/></l><r>accentuer<s n="vb"/></r></p></e>		
+    <e><p><l>nə̀<b/>cwitə<s n="vb"/></l><r>essuyer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>bəʼə<s n="vb"/></l><r>casser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>càmə<s n="vb"/></l><r>heurter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kwagə<s n="vb"/></l><r>toucher<s n="vb"/></r></p></e>
+    <e><p><l>nə<b/>fə̀mə<s n="vb"/></l><r>tromper<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tam<b/>ntsə<s n="vb"/></l><r>mouiller<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>coʼtə<b/>ncà<s n="vb"/></l><r>jurer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tswàʼa<s n="vb"/></l><r>creuser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>to<s n="vb"/></l><r>percer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>mǎʼ<b/>ca<s n="vb"/></l><r>emprisonner<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>mâʼ<b/>ncò<b/>ncʉâ<s n="vb"/></l><r>vaincre<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tǒn<b/>ndem<s n="vb"/></l><r>inquiéter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<g><b/>na<b/>mbɑ̀ncobə</g><s n="vb"/></l><r>analiser<g><b/>un<b/>texte</g><s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>cʉǎ<s n="vb"/></l><r>passer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kǐ<b/>sə̂və̀<s n="vb"/></l><r>dessiner<s n="vb"/></r></p></e>	
+    <e><p><l>nə̀<b/>yaʼa<s n="vb"/></l><r>traverser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>cagə<s n="vb"/></l><r>transmettre<s n="vb"/></r></p></e>	
+    <e><p><l>nə̀<b/>bàtə̌<b/>dʉʼ<s n="vb"/></l><r>déplacer<s n="vb"/></r></p></e>	
+    <e><p><l>nə̀<b/>yɔ̀gə<s n="vb"/></l><r>survivre<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>ŋwa<b/>dʉʼ<s n="vb"/></l><r>animer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>ghoʼo<b/>mbâbmbab<s n="vb"/></l><r>moudre<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>ta<s n="vb"/></l><r>marchander<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>soŋ<b/>cɔ̀<s n="vb"/></l><r>raconter<g><b/>des<b/>histoire</g><s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kune<b/>dʉʼ<s n="vb"/></l><r>décorer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tswə<s n="vb"/></l><r>rester<s n="vb"/></r></p></e>
+    <e><p><l>nə<b/>kɔ̌<s n="vb"/></l><r>vouloir<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kəb<b/>ntsiʼ<s n="vb"/></l><r>déjeuner<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kwʉ<s n="vb"/></l><r>mourir<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tàmtə̌<s n="vb"/></l><r>mélanger<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tə<s n="vb"/></l><r>métrer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>liʼi<s n="vb"/></l><r>garder<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>nu<b/>nə̀bàʼ<s n="vb"/></l><r>fumer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>nɛ̀nə<s n="vb"/></l><r>aller<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kabtə<s n="vb"/></l><r>couvrir<s n="vb"/></r></p></e> 
+    <e><p><l>nə̀<b/>mə̌ʼ<b/>zwì<s n="vblex"/></l><r>sourire<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>shud<b/>ncù<s n="vb"/></l><r>bouder<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tswìʼtə̌<s n="vb"/></l><r>augmenter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>zwi<s n="vb"/></l><r>assassiner<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>fìʼi<s n="vb"/></l><r>mesurer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>lɑntə<s n="vb"/></l><r>nettoyer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>gha<s n="vb"/></l><r>refuser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>lǎ<b/>ntsə<s n="vb"/></l><r>nager<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>fʉlə<s n="vb"/></l><r>voler<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tʉntə<s n="vb"/></l><r>compter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>ghùdnǐ<s n="vb"/></l><r>nuire<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>fʉ̌n<b/>mbǎʼnzwə<s n="vb"/></l><r>boutonner<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>bàgə<s n="vb"/></l><r>opérer<s n="vb"/></r></p></e>	
+    <e><p><l>nə̀<b/>nàbə<s n="vb"/></l><r>fabriquer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>ghubtə<s n="vb"/></l><r>durer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>ghubtə<b/>yɑmə<s n="vb"/></l><r>durer<g><b/>longtemps</g><s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>be<s n="vb"/></l><r>payer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>ghomə<s n="vb"/></l><r>attraper<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tsinə<s n="vb"/></l><r>cesser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>làgtə̀<b/>mfɑ<s n="vb"/></l><r>pardonner<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>nɛ̀nə<s n="vb"/></l><r>partir<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>twiagə<s n="vb"/></l><r>tousser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>togə<s n="vb"/></l><r>passer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>càʼtə̌<b/>nsi<s n="vb"/></l><r>prier<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tsiaŋə<s n="vb"/></l><r>inviter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tɔ<b/>kɑb<s n="vb"/></l><r>téléphoner<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tsaʼtə<s n="vb"/></l><r>collecter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>bʉ<s n="vb"/></l><r>permettre<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>miàgtə̌<s n="vb"/></l><r>achever<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>nyɑ̀m<b/>nə̀nà<s n="vb"/></l><r>paître<s n="vb"/></r></p></e>	
+    <e><p><l>nə̀<b/>ywɛlə<s n="vb"/></l><r>saturer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>bagtə<b/>fafa<s n="vb"/></l><r>détruire<g><b/>totalement</g><s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>koʼo<s n="vb"/></l><r>monter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>sùbə<s n="vb"/></l><r>piquer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>ghoʼo<s n="vb"/></l><r>écraser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kɔ̌<s n="vb"/></l><r>aimer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>ywìlə<s n="vb"/></l><r>planter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>yɑbə<s n="vb"/></l><r>placer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>ŋuʼu<s n="vb"/></l><r>plier<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kǎg<b/>tùn<s n="vb"/></l><r>travailler<g><b/>dur</g><s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>mbwə<s n="vb"/></l><r>cuire<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>lɛ̀lɛ<s n="vb"/></l><r>peser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>nyuʼu<s n="vb"/></l><r>appuyer<s n="vb"/></r></p></e>	
+    <e><p><l>nə̀<b/>nyǔʼ<b/>nùm<s n="vb"/></l><r>appuyer<g><b/>sur</g><s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>mǎʼ<b/>nzwə<s n="vb"/></l><r>vêtir<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>katə<s n="vb"/></l><r>promener<s n="vb"/></r></p></e>	
+    <e><p><l>nə̀<b/>tə<s n="vb"/></l><r>poser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kwàtə̌<s n="vb"/></l><r>réfléchir<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tswaʼa<s n="vb"/></l><r>piller<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>junə<s n="vb"/></l><r>acheter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>jun<b/>tàʼ<b/>bàʼ<s n="vb"/></l><r>acheter<g><b/>une<b/>maison</g><s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>fʉ̀nə<s n="vb"/></l><r>verrouiller<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>swatə<b/>ncobə<s n="vb"/></l><r>converser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>ghʉ̀<b/>kàʼ<s n="vb"/></l><r>improviser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>làŋtə̌<s n="vb"/></l><r>évaluer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>nɑ̀btə̌<s n="vb"/></l><r>produire<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>fɑ<s n="vb"/></l><r>offrir<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>jʉ<b/>bìn<s n="vb"/></l><r>profiter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>cǎm<b/>kù<s n="vb"/></l><r>trébucher<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tuʼu<s n="vb"/></l><r>puiser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>mbɛ̀n<b/>siaŋə<s n="vb"/></l><r>relire<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>ghàbə<s n="vb"/></l><r>partager<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>biagə<s n="vb"/></l><r>éliminer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>yùbə<s n="vb"/></l><r>râper<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>ba<s n="vb"/></l><r>récolter<s n="vb"/></r></p></e>
+	  <e><p><l>nə̀<b/>wàlə<s n="vb"/></l><r>récolter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>bəʼə<s n="vb"/></l><r>récolter<s n="vb"/></r></p></e>
+	  <e><p><l>nə̀<b/>coʼo<s n="vb"/></l><r>récolter<s n="vb"/></r></p></e>
+	  <e><p><l>nə̀<b/>fàgə<s n="vb"/></l><r>récolter<s n="vb"/></r></p></e>
+	  <e><p><l>nə̀<b/>toŋə<s n="vb"/></l><r>récolter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>làʼa<s n="vb"/></l><r>reprocher<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>làgtə̌<s n="vb"/></l><r>obliger<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>fàgə<s n="vb"/></l><r>déchirer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>fɑ<s n="vb"/></l><r>donner<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tswit<b/>nkʉn<s n="vb"/></l><r>corriger<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kwe<s n="vb"/></l><r>recevoir<s n="vb"/></r></p></e></e>
+    <e><p><l>nə̀<b/>bwʉ̀ntə̌<s n="vb"/></l><r>répondre<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>lǐʼ<b/>nkɑb<s n="vb"/></l><r>économiser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>bǎʼ<b/>nkab<s n="vb"/></l><r>rembourser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>zi<b/>dʉ̀m<s n="vb"/></l><r>rêver<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kuni<b/>dʉʼ<s n="vb"/></l><r>orner<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tsiagə<s n="vb"/></l><r>glisser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>dʉʼdə<s n="vb"/></l><r>frotter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tɔ<s n="vb"/></l><r>crier<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>fɑ<s n="vb"/></l><r>donner<s n="vb"/></r></p></e>		
+    <e><p><l>nə̀<b/>tonə<s n="vb"/></l><r>rôtir<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>yog<b/>nyàm<s n="vb"/></l><r>bronzer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>komə<s n="vb"/></l><r>ronfler<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tamə<s n="vb"/></l><r>tirer<s n="vb"/></r></p></e>
+	  <e><p><l>nə̀<b/>nu<b/>ngʉə̀<s n="vb"/></l><r>jurer<s n="vb"/></r></p></e>
+    <e><p><l>nə<b/>càʼtə̌<s n="vb"/></l><r>saluer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tə<b/>ntɑnə<s n="vb"/></l><r>souiller<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>cɑŋə<s n="vb"/></l><r>ensevelir<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>cɑmə<s n="vb"/></l><r>étonner<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>fu<s n="vb"/></l><r>sembler<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>fonə<s n="vb"/></l><r>trouver<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>yagə<s n="vb"/></l><r>sécher<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>juʼu<s n="vb"/></l><r>écouter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>lɔtə<s n="vb"/></l><r>regarder<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>yǒg<b/>mə̀n<s n="vb"/></l><r>sauver<b/>quelqu'un<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>buʼu<s n="vb"/></l><r>sonner<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>buʼ<b/>tom<s n="vb"/></l><r>jouer<g><b/>du<b/>tambour</g><s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tɔ<b/>ndɔ<s n="vblex"/></l><r>jouer<g><b/>de<b/>la<b/>trompette</g><s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>fʉ̀nə<s n="vb"/></l><r>fermer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>bʉʼʉ<s n="vb"/></l><r>lever<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>sògə<s n="vb"/></l><r>laver<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kwʉlə<s n="vb"/></l><r>bâtir<s n="vb"/></r></p></e>	
+    <e><p><l>nə̀<b/>koʼo<s n="vb"/></l><r>monter<s n="vb"/></r></p></e>	
+    <e><p><l>nə̀<b/>nàbtə̌<s n="vb"/></l><r>former<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tə<b/>nsi<s n="vb"/></l><r>déposer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>cilə<s n="vb"/></l><r>filtrer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>làbə<s n="vb"/></l><r>frapper<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>keʼe<s n="vb"/></l><r>éclairer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>lə̌<s n="vb"/></l><r>cacher<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>ywimtə̌<s n="vb"/></l><r>aider<s n="vb"/></r></p></e>	
+    <e><p><l>nə̀<b/>tǒg<b/>ntsi<s n="vb"/></l><r>cracher<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kud<>tǔn<b/>nù<s n="vb"/></l><r>conclure<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>vʉlə<s n="vb"/></l><r>fouetter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kuǎ<s n="vb"/></l><r>gratter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kǐ<s n="vb"/></l><r>rédiger<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>fɛd<b/>nsɔ<s n="vb"/></l><r>grincer<g><b/>des<b/>dents</g><s n="vb"/></r></p></e> 
+    <e><p><l>nə̀<b/>kǐ<s n="vb"/></l><r>écrire<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>cǒm<b/>zwì<s n="vb"/></l><r>rigoler<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>bìʼtə̌<s n="vb"/></l><r>balayer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tə<b/>tǔn<s n="vb"/></l><r>fonder<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kwǎ<s n="vb"/></l><r>penser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tʉntə<s n="vb"/></l><r>conter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tumə<s n="vb"/></l><r>sortir<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>nyǔʼ<b/>ntsə<s n="vb"/></l><r>tremper<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kə̌d<b/>lɛ̀d<b/>yɑmə<s n="vb"/></l><r>surcharger<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kʉʼtə<s n="vb"/></l><r>reculer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>yən<b/>ngəʼ<s n="vb"/></l><r>suffire<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>bwogtə<s n="vb"/></l><r>repéter<s n="vb"/></r></p></e>	
+    <e><p><l>nə̀<b/>còŋə<s n="vb"/></l><r>effrayer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>còŋə<s n="vb"/></l><r>purger<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tàŋə<s n="vb"/></l><r>attacher<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>toʼtə<s n="vb"/></l><r>commencer<s n="vb"/></r></p></e>
+      <e><p><l>ngab<s n="n"/><s n="cl1"/><s n="sg"/></l><r>poule<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>diaŋ<s n="n"/><s n="cl5"/></l><r>chaisse<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>bà<s n="n"/><s n="cl5"/></l><r>pion<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l><r>njʉ<s n="n"/><s n="cl5"/></l><r>jour<s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>mɛ̀nntʉ̀n<s n="n"/><s n="GD"/><s n="pl"/></l><r>quelquʼun<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ndɛ̀n<b/>ngɑ̂mcò<s n="n"/><s n="cl3"/><s n="sg"/></l><r>histoirien<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>tata<s n="n"/><s n="cl1"/><s n="sg"/></l><r>mathematic<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>nsi<b/>caʼ<s n="n"/><s n="cl1"/><s n="sg"/></l><r>terre<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>ghǎ<b/>ziʼtə̀<s n="n"/><s n="cl6"/><s n="pl"></l><r>élèves<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>sə̂və̀<s n="n"/><s n="cl3"/><s n="sg"/></l><r>photo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Nsi<s n="n"/><s n="cl1"/><s n="sg"/></l><r>Dieu<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>lɛne<s n="n"/><s n="sg"/><s n="ncl"/></l><r>connaitre<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>mbêdbwə<s n="n"/><s n="sg"/><s n="cl3"/></l><r>pasteur<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>Yɛsɔ̀<s n="n"/><s n="sg"/><s n="cl3"/></l><r>Jésus<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>Ncobnsi<s n="n"/><s n="cl1"/></l><r>bible<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ki<s n="n"/><s n="cl5"/></l><r>clé<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>nzə̀<s n="n"/><s n="cl1"/></l><r>voix<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tʉ<s n="n"/><s n="cl3"/></l><r>arbre<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>kwì<s n="n"/><s n="cl1"/></l><r>chant<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cə̀b<s n="n"/><s n="cl1"/></l><r>pioson<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>mvɛ̀n<s n="n"/><s n="cl1"/></l><r>dos<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ncwɛ̂dtùn<s n="n"/><s n="cl1"/></l><r>fesse<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ləm<s n="n"/><s n="cl6"/></l><r>sang<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>nkib<s n="n"/><s n="cl1"/></l><r>ongle<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>nzwə̀ʼ<s n="n"/><s n="cl1"/></l><r>bagarre<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>mbɛnmbɛnə<s n="n"/><s n="cl1"/></l><r>caffard<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>nyǎŋtu<s n="n"/><s n="cl1"/></l><r>cheveux<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tɔ<s n="n"/><s n="cl5"/></l><r>cou<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>nkə̀bə̀ʼ<s n="n"/><s n="cl1"/></l><r>épaule<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ngùb<b/>wud<s n="n"/><s n="GD"/></l><r>peau<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>wud<s n="n"/><s n="cl5"/></l><r>corp<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>kù<s n="n"/><s n="cl1"/></l><r>pied<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>bu<s n="n"/><s n="cl1"/></l><r>main<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ntubu<s n="n"/><s n="cl1"/></l><r>doits<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>bouche<s n="n"/><s n="cl1"/></l><r>ncù<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>lag<s n="n"/><s n="cl3"/></l><r>oeil<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>miɑg<s n="n"/><s n="cl4"/></l><r>yeux<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>nzwî<b/>mfə̀n<s n="n"/><s n="cl3"/></l><r>oreille<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>lem<s n="n"/><s n="cl5"/></l><r>langue<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>nziàʼtu<s n="n"/><s n="GD"/></l><r>cerveau<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>nkɔ̂ntsəlag<s n="n"/><s n="GD"/></l><r>nez<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>mfâŋntselag<s n="n"/><s n="cl1"/></l><r>narines<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>bam<s n="n"/><s n="cl5"/></l><r>ventre<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>sɔ<s n="n"/><s n="cl5"/></l><r>dent<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>nsɔ̀<s n="n"/><s n="cl4"/></l><r>dents<s n="n"/><s n="pl"/></r></p></e>
+      <e><p><l>mvɛ̀n<s n="n"/><s n="cl1"/></l><r>dos<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>kù<s n="n"/><s n="cl3"/></l><r>pied<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>zwəʼ<s n="n"/><s n="cl5"/></l><r>rein<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>mbì<s n="n"/><s n="cl3"/></l><r>foi<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ngǎləm<s n="n"/><s n="cl3"/></l><r>vein<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>vog<s n="n"/><s n="cl1"/></l><r>os<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>mɑdʉ̀ʼ<s n="n"/><s n="cl1"/></l><r>pouce<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ndâdnyaʼ<s n="n"/><s n="cl1"/></l><r>index<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>nsà<b/>ntubu<s n="n"/><s n="cl1"/></l><r>majeur<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>nsòkwa<s n="n"/><s n="cl3"/></l><r>anulaire<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>nkêb<b/>ntubu<s n="n"/><s n="cl1"/></l><r>orriculair<s n="n"/><s n="m"/></r></p></e>
+         <e><p><l>nə̀<b/>lagtə̌<s n="vb"/></l><r>oublier<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>coʼo<s n="vb"/></l><r>ouvrir<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>nyuʼu<s n="vb"/></l><r>appuyer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>nyi<s n="vb"/></l><r>presser<s n="vblex"/></r></p></e>   <!--les legumes-->
+    <e><p><l>nə̀<b/>co<s n="vbl"/></l><r>entrer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tɛnə<s n="vb"/></l><r>pousser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>bamə<s n="vb"/></l><r>reconnaître<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>bamə<s n="vb"/></l><r>accepter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>taŋə<s n="vb"/></l><r>attacher<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>fagə<s n="vb"/></l><r>déchirer<s n="vb"/></r></p></e>
+    <e><p><l>nə<b/>kwe<s n="vb"/></l><r>acquérir<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>bamə<s n="vb"/></l><r>approuver<s n="vb"/></r></p></e>  <!--meme comme accepter-->
+    <e><p><l>nə̀<b/>nɛ̌n<b/>mbwə̀<s n="vb"/></l><r>progresser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>faʼa<s n="vb"/></l><r>labourer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tswàʼtə̌<s n="vb"/></l><r>spécifier<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>bɛdtə<b/>nǔ<b/>nùm<s n="vb"/></l><r>revendiquer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kwǐʼ<b/>fùʼ<s n="vb"/></l><r>enrichir<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>fɑ<b/>nkɑk<s n="vb"/></l><r>financer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>faʼa<s n="vb"/></l><r>fonctionner<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>bɑnə<s n="vb"/></l><r>détester<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>taʼa<s n="vb"/></l><r>chasser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kʉʼtə<s n="vb"/></l><r>reculer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>naʼ<b/>ngube<b/>mfaʼa<s n="vb"/></l><r>hésiter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tswìʼtə̌<s n="vb"/></l><r>argumenter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>fɑ<b/>ngɑn<s n="vb"/></l><r>armer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>bàtə̌<s n="vb"/></l><r>modifier<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>zwiʼtə<s n="vb"/></l><r>expérimenter<s n="vb"/></r></p></e>	
+    <e><p><l>nə̀<b/>bàgtə̌<b/>màd<s n="vb"/></l><r>caractériser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tɔ<b/>fin<s n="vb"/></l><r>sifffer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kùmə<s n="vb"/></l><r>arriver<s n="vb"/></r></p></e>	
+    <e><p><l>nə̀<b/>lodə<s n="vbl"/></l><r>observer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>buʼ<b/>mbu<s n="vb"/></l><r>applodire<s n="vb"/></r></p></e>	
+    <e><p><l>nə̀<b/>zwi<s n="vb"/></l><r>tuer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>ghomə<s n="vb"/></l><r>arrester<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>gha<s n="vb"/></l><r>contester<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>bamə<s n="vb"/></l><r>accepter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tsiàgə<s n="vb"/></l><r>gliser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tsiagə<s n="vb"/></l><r>embrasser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b>mbɛ̀n<b/>nabtə<s n="vb"/></l><r>rétablir<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>sǎ<s n="vb"/></l><r>étendre<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>dùmtə̌<s n="vb"/></l><r>réchauffer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>fɑ<b/>ntag<s n="vb"/></l><r>conseiller<s n="vb"/></r></p></e>	
+    <e><p><l>nə̀<b/>bɛdtə<s n="vb"/></l><r>interroger<s n="vb"/></r></p></e>	
+    <e><p><l>nə̀<b/>fɑ<b/>cû<b/>fàʼ<s n="vb"/></l><r>équiper<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>sǎ<b/>Ncobnsi<s n="vb"/></l><r>évangéliser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>zwiàgə<s n="vb"/></l><r>inspirer<s n="vb"/></r></p></e>
+    <e><p><l>azasaat<s n="vb"/></l><r>adapter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>fɑ<b/>məbâm<b/>nsi<s n="vb"/></l><r>adorer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>ŋat<b/>nyɑmdiaŋ<s n="vb"/></l><r>chevaucher<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>cobə<s n="vb"/></l><r>exprimer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>batə<s n="vb"/></l><r>supplier<s n="vb"/></r></p></e>
+    <e><p><l>azrec’hiñ<s n="vblex"/></l><r>affliger<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>màʼ<b/>ca<s n="vb"/></l><r>emprisonner<s n="vb"/></r></p></e>	
+    <e><p><l>nə̀<b/>nɛ̀nə<s n="vb"/></l><r>aller<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>nyǔʼ<b/>ntsə<s n="vb"/></l><r>baptiser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>mǎʼ<b/>nzwə<s n="vb"/></l><r>vetir<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kəb<b/>nka<s n="vb"/></l><r>trasser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>zìnə<s n="vb"/></l><r>marcher<s n="vb"/></r></p></e>
+    <e><p><l>miɑg<b/>nə̀̀<b/>tum<b/>sɑmmbɑhɑ<s n="vb"/></l><r>émerveiller<s n="vb"/></r></p></e> <!--une expression-->
+    <e><p><l>nə̀<b/>bumə<s n="vb"/></l><r>aroser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>màʼa<s n="vb"/></l><r>lancer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kàŋtə̌<s n="vb"/></l><r>jongler<s n="vb"/></r></p></e>
+	  <e><p><l><s n="vb"/></l><r>juger<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>fʉ̌<s n="vb"/></l><r>tromper<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>nyàŋə<s n="vb"/></l><r>danser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>ghʉ̌<s n="vb"/></l><r>avoir<s n="vb"/></r></p></e>    
+    <e><p><l>nə̀<b/>yagə<s n="vb"/></l><r>bailler<s n="vb"/></r></p></e> 
+    <e><p><l>nə̀<b/>yagə<s n="vb"/></l><r>soullier<s n="vb"/></r></p></e> 
+    <e><p><l>nə̀<b/>nɛ̌n<b/>katə̀<s n="vb"/></l><r>voyager<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>ya<b/>ntʉ<s n="vb"/></l><r>facher<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>mǒ<s n="vb"/></l><r>veiller<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kuàʼa<s n="vb"></l><r>pleurer<s n="vb"></r></p></e>
+    <e><p><l>nə̀<b/>zwǐ<s n="vb"/></l><r>rire<s n="vb"/></r></p></e>
+    <e><p><l>nə<b/>kəbtə<s n="vb"/></l><r>tailler<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tə<b/>bu<s n="vb"/></l><r>avertir<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/><s n="vb"/></l><r>amasser<s n="vb"/></r></p></e> 
+    <e><p><l>nə̀<b/>nu<s n="vb"/></l><r>boire<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>ŋwatə<b/>dʉʼ<s n="vb"/></l><r>animer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>yɑ̀gə<s n="vb"/></l><r>démanger<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>fɛ̀dtə̌<s n="vb"/></l><r>verser<s n="vblex"/></r></p></e>
+    <e><p><l>nə̀<b/>mbɛ̀n<b/>yɑ̂gə<s n="vb"/></l><r>revivre<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tə<b/>ndʉ̀<s n="vb"/></l><r>limiter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>nu<s n="vb"/></l><r>consommer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>jʉ<s n="vb"/></l><r>consommer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>fɛlə<s n="vb"/></l><r>consommer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>wǎd<b/>kə̀lɔ̀<s n="vb"/></l><r>récolter<g><b/>la<b/>banane</g><s n="vb"/></r></p></e>	
+    <e><p><l>nə̀<b/>kogə<s n="vb"/></l><r>diminuer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tamə<s n="vb"/></l><r>visser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>bwonə<s n="vb"/></l><r>bouillir<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>vʉ̌<s n="vb"/></l><r>bricoler<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tsiaŋe<s n="vb"/></l><r>appeller<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>yənə<s n="vb"/></l><r>voir<s n="vblex"/></r></p></e>
+    <e><p><l>nə<b/>dʉʼʉ<s n="vb"/></l><r>cultiver<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>cagə<s n="vb"/></l><r>conduire<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>sôŋ<s n="vb"/></l><r>conduire<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kòmə<s n="vb"/></l><r>ramper<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kuàʼa<s n="vb"/></l><r>pluerer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>cǎb<b/>ncù<s n="vb"/></l><r>butiner<s n="vb"/></r></p></e>
+    <e><p><l>nə<b/>laʼa<s n="vb"/></l><r>caler<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>co<s n="vb"/></l><r>entrer<s n="vblex"/></r></p></e>
+    <e><p><l>nə<b/>tswə<s n="vb"/></l><r>habiter<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kʉmtə<s n="vb"/></l><r>regrouper<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>yagə<s n="vb"/></l><r>bayer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kwitə<s n="vb"/></l><r>broder<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>bɛd<b/>nbwogə<s n="vb"/></l><r>bombarder<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>sǒ<b/>nkətoʼo<s n="vb"/></l><r>chausser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>kemə<s n="vb"/></l><r>nourrir<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>toʼo<s n="vb"/></l><r>entamer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>bàtə̌<s n="vb"/></l><r>changer<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>tɛnə<s n="vb"/></l><r>pousser<s n="vb"/></r></p></e>
+    <e><p><l>nə̀<b/>nɛnə<s n="vb"/></l><r>patir<s n="vb"/></r></p></e>
+    
+  
+   <e><re>[.\?;:!·]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+    <e><re>,</re><p><l><s n="cm"/></l><r><s n="cm"/></r></p></e>
+    <e><p><l>’<s n="apos"/></l><r>’<s n="apos"/></r></p></e>
+    <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
+    <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+    <e><re>*[2-9]</re><p><l>mbatə̀<s n="num"/></l><r>ème<s n="num"/></r></p></e>
+    <e><re>[1]+</re><p><l>mbwə̀<s n="num"/></l><r>ére<s n="num"/></r></p></e>
+    <e><re>1</re><p><l>añ<s n="num"/></l><r>ier<s n="num"/></r></p></e>
+    <e><re>2</re><p><l>l<s n="num"/></l><r>iere<s n="num"/><s n="f"></r></p></e>
+    <e><re>[0-2]?[0-9]</re><p><l>e<s n="num"/><s n="mf"/><s n="sg"/></l><r>h<s n="num"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><re>[0-9]+</re><p><l><b/>laŋnzə̀<s n="num"/><s n="mf"/><s n="sg"/></l><r><b/>km<s n="num"/></r></p></e>
+    <e><re>[A-Z][A-Z]+([A-Z])?</re><p><l><s n="n"/><s n="acr"/></l><r><s n="n"/><s n="acr"/></r></p></e>
+    <e><re>[A-Z][0-9]+([0-9])?</re><p><l><s n="n"/><s n="acr"/></l><r><s n="n"/><s n="acr"/></r></p></e>
+    <e><re>(((www.)|(http://))[a-z\-]+([.][a-z\-]+)+)</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+    <e><re>[a-z.]+@[a-z.]+</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+
+    <e><p><l>tɑ</l><r>monsieur<b/></r></p>
+    <re>[A-Z][a-z]+</re>
+    <p><l><s n="np"/><s n="m"/><s n="sg"/></l><r><s n="np"/><s n="m"/><s n="sg"/></r></p></e>
+    <e>
+      <p><l>mɑ<b/></l><r>madame<b/></r></p>
+          <re>[A-Z][a-z]+</re>
+      <p><l><s n="np"/><s n="f"/><s n="sg"/></l><r><s n="np"/><s n="f"/><s n="sg"/></r></p>
+    </e>
+    <e>
+      <p><l>mɑ</l><r>mademoiselle<b/></r></p>
+          <re>[A-Z][a-z]+</re>
+      <p><l><s n="np"/><s n="f"/><s n="sg"/></l><r><s n="np"/><s n="f"/><s n="sg"/></r></p>
+    </e>
+   </section>
+</dictionary>
+ressourses
