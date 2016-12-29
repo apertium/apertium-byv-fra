@@ -6,6 +6,12 @@
     <sdef n="n"     c="Nom"/>
     <sdef n="v"     c="Verbe lexique"/>
     <sdef n="vblex" c="Verbe lexique"/>
+    <sdef n="cop"   c="Copula"/>
+    <sdef n="foc"   c=""/>
+    <sdef n="adv"   c=""/>
+    <sdef n="itg"   c=""/>
+    <sdef n="pr"    c="Preposition"/>
+    <sdef n="cnjcoo" c="Conjonction coordiné"/>
     <sdef n="m"     c="Masculin"/>
     <sdef n="f"     c="Feminin"/>
     <sdef n="cl1"   c="Class I"/>   <!--singular-->
@@ -22,6 +28,18 @@
   </sdefs>
 
    <section id="main" type="standard">
+      <!-- SECTION: Miscellaneous -->
+
+      <e r="LR"><p><l>ɑ̂<s n="foc"/></l><r></r></p></e>
+
+      <!-- SECTION: Conjonctions -->
+
+      <e><p><l>bô<s n="cnjcoo"/></l><r>et<s n="cnjcoo"/></r></p></e>
+
+      <!-- SECTION: Prepositions -->
+
+      <e><p><l>ntʉ̂m<s n="pr"/></l><r>dans<s n="pr"/></r></p></e>
+      <e><p><l>bô<s n="pr"/></l><r>avec<s n="pr"/></r></p></e>
 
       <!-- SECTION: Noms -->
       
@@ -39,7 +57,7 @@
       <e><p><l>mbʉ̂<b/>cwɛd<s n="n"/><s n="cl3"/></l><r>chien<b/>sauvage<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>busi<s n="n"/><s n="cl1"/></l><r>chat<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>ngǒnntsə<s n="n"/><s n="cl1"/></l><r>poison<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>cwɛd<s n="n"/><s n="cl1"/></l><r>champ<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cwɛd<s n="n"/><s n="cl3"/></l><r>champ<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>ncwɛ̀d<s n="n"/><s n="cl1"/></l><r>palais<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>nkətoʼo<s n="n"/><s n="cl1"/></l><r>chaussure<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>ndɑ̂<b/>ca<s n="n"/><s n="cl1"/></l><r>prison<s n="n"/><s n="f"/></r></p></e>
@@ -208,8 +226,14 @@
       <e><p><l>nsòkwa<s n="n"/><s n="cl3"/></l><r>anulaire<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>nkêb<b/>ntubu<s n="n"/><s n="cl1"/></l><r>orriculair<s n="n"/><s n="m"/></r></p></e>
 
+      <!-- SECTION: Conjonctions -->
+
+      <e><p><l>yɑ<s n="adv"/><s n="itg"/></l><r>où<s n="adv"/><s n="itg"/></r></p></e>
+
 
       <!-- SECTION: Verbes -->
+
+      <e><p><l>bə<s n="cop"/></l><r>être<s n="vblex"/></r></p></e>
     
       <e><p><l>ba<s n="v"/></l><r>récolter<s n="vblex"/></r></p></e>
       <e><p><l>bagdə<s n="v"/></l><r>endommager<s n="vblex"/></r></p></e>
