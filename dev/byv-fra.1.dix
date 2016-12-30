@@ -97,17 +97,16 @@
       <e><p><l>cwɛd<s n="n"/><s n="cl1"/></l><r>champ<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>ncwɛ̀d<s n="n"/><s n="cl1"/></l><r>palais<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>nkətoʼo<s n="n"/><s n="cl1"/></l><r>chaussure<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>ndɑ̂<g><b/>ca<s n="n"/><s n="cl1"/></l><r>prison<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ndɑ̂ca<s n="n"/><s n="cl1"/></l><r>prison<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>nzwə<s n="n"/><s n="cl1"/></l><r>habille<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>kə̀bwɔ̀<s n="n"/><s n="cl1"/></l><r>mauvais/e<s n="n"/><s n="GD"/></r></p></e>
+      <e><p><l>kə̀bwɔ̀<s n="n"/><s n="cl1"/></l><r>mauvais<s n="n"/><s n="GD"/></r></p></e>
       <e><p><l>mə̀bwɔ<s n="n"/><s n="cl1"/></l><r>bien<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>lɔ<s n="n"/><s n="cl5"/></l><r>paraisseu<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>màd<s n="n"/><s n="cl1"/></l><r>habitude<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>nə̀<b/>lɛ̀nə<s n="n"/><s n="GD"/></l><r>savoire<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>zə̂nù<s n="n"/><s n="cl5"/></l><r>sagesse<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>kə̀nà<s n="n"/><s n="cl1"/></l><r>arrachide<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>mfoŋə<s n="n"/><s n="cl1"/></l><r>radio<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>ngʉɑyən<s n="n"/><s n="cl1"/></l><r>television<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ngʉɑyən<s n="n"/><s n="cl1"/></l><r>poste<b/>televiseur<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>kɑb<s n="n"/><s n="cl1"/></l><r>téléphone<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>nyàm<s n="n"/><s n="cl3"/></l><r>horloge<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>mfə̀n<s n="n"/><s n="cl1"/></l><r>roi<s n="n"/><s n="m"/></r></p></e>
@@ -146,7 +145,7 @@
       <e><p><l>nkàʼ<s n="n"/><s n="sg"/><s n="cl3"/></l><r>lampe<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>toŋkù<s n="n"/><s n="cl1"/></l><r>police<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>bə̀fə̀<s n="n"/><s n="cl1"/></l><r>gendarme<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>nkə̀tuʼu<s n="n"/><s n="ncl"/></l><r>militaire<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>nkə̀tuʼ<s n="n"/><s n="ncl"/></l><r>militaire<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>esclave<s n="n"/><s n="cl3"/></l><r>kuàn<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>bwoge<s n="n"/><s n="cl1"/></l><r>feu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>ndɑ̂<b/>mbwogə<s n="n"/><s n="cl1"/></l><r>enfer<s n="n"/><s n="m"/></r></p></e>  <!--ohlala il fiat  chaud la bas-->
@@ -456,7 +455,7 @@
       <e><p><l>bouche<s n="n"/><s n="cl1"/></l><r>ncù<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>lag<s n="n"/><s n="cl3"/></l><r>oeil<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>miɑg<s n="n"/><s n="cl4"/></l><r>yeux<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>nzwî<b/>mfə̀n<s n="n"/><s n="cl3"/></l><r>oreille<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>nzwî<b/>mfə̀n<s n="n"/><s n="cl3"/></l><r>femme<b/>du<b/>chéf<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>lem<s n="n"/><s n="cl5"/></l><r>langue<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>nziàʼtu<s n="n"/><s n="GD"/></l><r>cerveau<s n="n"/><s n="GD"/></r></p></e>
       <e><p><l>nkɔ̂ntsəlag<s n="n"/><s n="GD"/></l><r>nez<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
