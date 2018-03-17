@@ -1689,5 +1689,11 @@
     <e><p><l>jûfàʼ<s n="n"/><s n="cl5"/></l><r>outil<s n="n"/></r></p></e> 
     <e><p><l>cûfàʼ<s n="n"/><s n="cl6"/></l><r>outils<s n="n"/></r></p></e>
     <e><p><l>leʼfàʼ<s n="n"/><s n="cl5"/></l><r>jour<b/>de<b/>travaille<s n="n"/></r></p></e> 
+
+   
+      <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+      <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
+      <e><re>[0-9]+([., ][0-9]+)*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+
    </section>
 </dictionary>
