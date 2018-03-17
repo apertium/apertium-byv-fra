@@ -3,34 +3,41 @@
   <alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZⱭƐƏƆɄabcdefghijklmnopqrstuvwxyzɑɛəɔʉŋʼꞋ</alphabet>
                       <!--Alpabet Generale des Langues Camerounaise (AGLC for more)-->
   <sdefs>
+    <sdef n="POS"     c="Nom"/>
     <sdef n="n"     c="Nom"/>
     <sdef n="v"     c="Verbe lexique"/>
     <sdef n="vblex" c="Verbe lexique"/>
     <sdef n="cop"   c="Copula"/>
+    <sdef n="num"   c="Numeral"/>
     <sdef n="foc"   c=""/>
+    <sdef n="abbr"   c=""/>
+    <sdef n="np"   c=""/>
+    <sdef n="pro"   c=""/>
     <sdef n="adv"   c="adverbe"/>
     <sdef n="itg"   c="interrogatif"/>
     <sdef n="pr"    c="Preposition"/>
     <sdef n="cnjcoo" c="Conjonction coordiné"/>
     <sdef n="m"     c="Masculin"/>
+    <sdef n="mf"     c=""/>
+    <sdef n="nt"     c=""/>
     <sdef n="f"     c="Feminin"/>
     <sdef n="cl1"   c="Class I"/><!--singular-->
     <sdef n="cl2"   c="Class II"/>
+    <sdef n="cl3"   c="Class II"/>
     <sdef n="cl5"   c="Class V"/>
     <sdef n="cl4"   c="Class IV"/>  <!--plural-->
-    <sdef n="cl5"   c="Class VI"/>
+    <sdef n="cl6"   c="Class VI"/>
     <sdef n="ncl"   c="NO Class"/>
     <sdef n="GD"    c="Gender/class to be determined"/>
     <sdef n="sg"    c="Singulierr"/>
     <sdef n="pl"    c="Pluriel"/>
+    <sdef n="tn"    c=""/>
     <sdef n="sp"    c="Singulier / pluriel"/>
     <sdef n="ind"   c="Indefinit"/>
     <sdef n="acr"    c="Acronime"/>
     <sdef n="top"    c="Toponyme"/>
     <sdef n="ant"    c="Anthroponym"/>
     <sdef n="al"     c="Autres"/>
-    <sdef n="pr"     c="Preposition"/>
-    <sdef n="cnjcoo" c="Conjonction de coordination"/>
     <sdef n="cnjsub" c="Conjonction de subordination"/>
     <sdef n="cnjadv" c="Conjonction adverbial"/>
     <sdef n="prn"    c="Pronom"/>
@@ -41,13 +48,11 @@
     <sdef n="neg"    c="Negatif"/>
     <sdef n="ref"    c="Reflexif"/>
     <sdef n="ij"     c="Interjection"/>
-    <sdef n="adv"    c="Adverbe"/>
     <sdef n="preadv" c="Preadverbe"/>
     <sdef n="adj"    c="Adjectif"/>
     <sdef n="sint"   c="Synthetic"/>
     <sdef n="comp"   c="Comparatif"/>
     <sdef n="sup"    c="Superlatif"/>
-    <sdef n="itg"    c="Interrogatif"/>
     <sdef n="vb"     c="Verb"/>
     <sdef n="vbmod"  c="Verb modal"/>
     <sdef n="vpart"  c="particule verbale"/>
@@ -660,7 +665,7 @@
      <e><p><l>tsìntə̌<s n="v"/></l><r>pisser<s n="vblex"/></r></p></e>
      <e><p><l>nə<b/>sitə<b/> kùd<b/>mɛ̀n<s n="vb"/></l><r>trahir<s n="vb"/></r></p></e>
     <e><p><l>Tàmtə<b/>twsə̂ntǔn<b/>Ngɔ̌ngɔ̀<s n="np"/></l><r>Organisation<b/>Mondiale<b/>de<b/>la<b/>Santé<s n="np"/></r></p></e>   
-    <e><p><l>Nkêm<b/>ngɔ̌ngɔ̀<s n="np"/></l><r>F.A.O<s n="np"/><s n="abbr"></r></p></e>
+    <e><p><l>Nkêm<b/>ngɔ̌ngɔ̀<s n="np"/></l><r>F.A.O<s n="np"/><s n="abbr"/></r></p></e>
     <e><p><l>bʉʼ<b/>ngɔ̀<s n="n"/></l><r>dévise<b/>d'un<b/>pays<s n="n"/></r></p></e>
     <e><p><l>Ntàmtə̀<b/>ngɔ̌<b/>Afrika<s n="np"/></l><r>U.A<s n="abbr"/></r></p></e>
     <e><p><l>nə̀<b/>lɛ̀nə<s n="adj"/></l><r>savoir<s n="adj"/></r></p></e>	
@@ -712,11 +717,11 @@
     <e><p><l>nə̀<b/>cǎb<b/>ncù<s n="vb"/></l><r>se<b/>mmoquer<s n="vb"/></r></p></e>
     <e><p><l>nə̀<b/>tsiàŋtə̌<s n="vb"/></l><r>se<b/>rejouir<s n="vb"/></r></p></e>
     <e><p><l>nə̀<b/>cʉagə<s n="vb"/></l><r>gronder<s n="vb"/></r></p></e>
-    <e><p><l>nə̀<b/>kɔ̌<s n=""></l><r>aimer<s n=""></r></p></e>
-    <e><p><l>nə̀<b/>bwɔ̌<b/>ntʉ<s n=""></l><r>avoir<b/>du<b/>coeur<s n=""></r></p></e>
-    <e><p><l>nə̀<b/>cʉ̌<b/>ju<s n=""></l><r>envier<b/>quelque<b/>chose<s n=""></r></p></e>
-    <e><p><l>nə̀<b/>zətə<s n="adj"></l><r>être<b/>malicieux<s n="adj"></r></p></e>
-    <e><p><l>nə̀<b/>satə<s n="adj"></l><r>être<b/>gai<s n="adj"></r></p></e>
+    <e><p><l>nə̀<b/>kɔ̌<s n="POS"/></l><r>aimer<s n="POS"/></r></p></e>
+    <e><p><l>nə̀<b/>bwɔ̌<b/>ntʉ<s n="POS"/></l><r>avoir<b/>du<b/>coeur<s n="POS"/></r></p></e>
+    <e><p><l>nə̀<b/>cʉ̌<b/>ju<s n="POS"/></l><r>envier<b/>quelque<b/>chose<s n="POS"/></r></p></e>
+    <e><p><l>nə̀<b/>zətə<s n="adj"/></l><r>être<b/>malicieux<s n="adj"/></r></p></e>
+    <e><p><l>nə̀<b/>satə<s n="adj"/></l><r>être<b/>gai<s n="adj"/></r></p></e>
     <e><p><l>nə̀<b/>tǎ<b/>tu<s n="vb"/></l><r>être<b/>tétu<s n="vb"/></r></p></e>
     <e><p><l>nə̀<b/>juʼ<b/>ncù<s n="vb"/></l><r>obiellir<s n="vb"/></r></p></e>
     <e><p><l>nə̀<b/>fələ<s n="vb"/></l><r>voler<s n="vb"/></r></p></e>	
@@ -753,68 +758,68 @@
     <e><p><l>nə̀<b/>ka<b/>ngəʼ<s n="vb"/></l><r>faire<b/>du<b/>mal<b/>à<b/>autruit<s n="vb"/></r></p></e>
     <e><p><l>nə̀<b/>ghʉ̌<b/>ngəʼ<s n="vb"/></l><r>faire<b/>du<b/>mal<b/>à<b/>autruit<s n="vb"/></r></p></e>
     <e><p><l>nə̀<b/>maŋ<b/>ndʉ̀ʼ<s n="vb"/></l><r>rivaliser<s n="vb"/></r></p></e>
-    <e><p><l>Nkaŋmiɑg<s n="n"/><s n="cl4"></l><r>sourcile<s n="n"/></r></p></e>   
-    <e><p><l>Nyǎŋmiɑg<s n="n"/><s n="cl4"></l><r>cills<s n="pr"/></r></p></e>
-    <e><p><l>ghə̀ʼ<s n="n"/><s n="cl5"></l><r>joue<s n="n"/><s n="sg"></r></p></e>
-    <e><p><l>ngeʼ<s n="n"/><s n="cl4"></l><r>joues<s n="n"/><s n="pl"></r></p></e>
-    <e><p><l>ngǔblɑg<s n="n"/><s n="cl5"></l><r>paupiers<s n="n"/></r></p></e>	
-    <e><p><l>kə̀kǔbncù<s n="n"/><s n="cl3"></l><r>lévre<s n="n"/></r></p></e>	
-    <e><p><l>ntagə<s n="n"/><s n="cl4"></l><r>gencives<s n="n"/></r></p></e>
-    <e><p><l>nyǎŋncù<s n="n"/><s n="cl3"></l><r>barbe<s n="n"/></r></p></e>
-    <e><p><l>nkə̀mbə̀ʼ<s n="n"/><s n="cl4"></l><r>épaule<s n="n"/></r></p></e>
-    <e><p><l>ndâŋbu<s n="n"/><s n="cl3"></l><r>avant<b/>bras<s n="n"/></r></p></e>
-    <e><p><l>kə̀kag<s n="n"/><s n="cl5"></l><r>aisselle<s n="n"/></r></p></e>
-    <e><p><l>tàmmbwə̀<s n="n"/><s n="cl4"></l><r>cuisse<s n="n"/></r></p></e>	
-    <e><p><l>cwɛ̂dtùn<s n="n"/><s n="cl3"></l><r>fesse<s n="n"/></r></p></e>
-    <e><p><l>ncwɛ̂dtùn<s n="n"/><s n="cl4"></l><r>fesses<s n="n"/></r></p></e>
-    <e><p><l>tûkəkwiʼ<s n="n"/><s n="cl5"></l><r>genou<s n="n"/></r></p></e>	
-    <e><p><l>mbwòŋtùn<s n="n"/><s n="cl1"></l><r>anus<s n="n"/></r></p></e>
-    <e><p><l>nkaŋtu<s n="n"/><s n="cl1"></l><r>tampe<s n=""/></r></p></e>
-    <e><p><l>sàŋ<s n="n"/><s n="cl5"></l><r>partie<b/>dorsale<b/>du<b/>cou<s n="n"/></r></p></e>  
-    <e><p><l>ngâtɔ<s n="n"/><s n="cl3"></l><r>ganglion<b/>du<b/>cou<s n="n"/></r></p></e> 
-    <e><p><l>tɔ̀<s n="n"/><s n="cl5"></l><r>nombrile<s n="n"/></r></p></e>	
+    <e><p><l>Nkaŋmiɑg<s n="n"/><s n="cl4"/></l><r>sourcile<s n="n"/></r></p></e>   
+    <e><p><l>Nyǎŋmiɑg<s n="n"/><s n="cl4"/></l><r>cills<s n="pr"/></r></p></e>
+    <e><p><l>ghə̀ʼ<s n="n"/><s n="cl5"/></l><r>joue<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>ngeʼ<s n="n"/><s n="cl4"/></l><r>joues<s n="n"/><s n="pl"/></r></p></e>
+    <e><p><l>ngǔblɑg<s n="n"/><s n="cl5"/></l><r>paupiers<s n="n"/></r></p></e>	
+    <e><p><l>kə̀kǔbncù<s n="n"/><s n="cl3"/></l><r>lévre<s n="n"/></r></p></e>	
+    <e><p><l>ntagə<s n="n"/><s n="cl4"/></l><r>gencives<s n="n"/></r></p></e>
+    <e><p><l>nyǎŋncù<s n="n"/><s n="cl3"/></l><r>barbe<s n="n"/></r></p></e>
+    <e><p><l>nkə̀mbə̀ʼ<s n="n"/><s n="cl4"/></l><r>épaule<s n="n"/></r></p></e>
+    <e><p><l>ndâŋbu<s n="n"/><s n="cl3"/></l><r>avant<b/>bras<s n="n"/></r></p></e>
+    <e><p><l>kə̀kag<s n="n"/><s n="cl5"/></l><r>aisselle<s n="n"/></r></p></e>
+    <e><p><l>tàmmbwə̀<s n="n"/><s n="cl4"/></l><r>cuisse<s n="n"/></r></p></e>	
+    <e><p><l>cwɛ̂dtùn<s n="n"/><s n="cl3"/></l><r>fesse<s n="n"/></r></p></e>
+    <e><p><l>ncwɛ̂dtùn<s n="n"/><s n="cl4"/></l><r>fesses<s n="n"/></r></p></e>
+    <e><p><l>tûkəkwiʼ<s n="n"/><s n="cl5"/></l><r>genou<s n="n"/></r></p></e>	
+    <e><p><l>mbwòŋtùn<s n="n"/><s n="cl1"/></l><r>anus<s n="n"/></r></p></e>
+    <e><p><l>nkaŋtu<s n="n"/><s n="cl1"/></l><r>tampe<s n="POS"/></r></p></e>
+    <e><p><l>sàŋ<s n="n"/><s n="cl5"/></l><r>partie<b/>dorsale<b/>du<b/>cou<s n="n"/></r></p></e>  
+    <e><p><l>ngâtɔ<s n="n"/><s n="cl3"/></l><r>ganglion<b/>du<b/>cou<s n="n"/></r></p></e> 
+    <e><p><l>tɔ̀<s n="n"/><s n="cl5"/></l><r>nombrile<s n="n"/></r></p></e>	
     <e><p><l>nsa<s n="n"/></l><r>flanc<s n="n"/></r></p></e>
-    <e><p><l>sa<s n="n"/><s n="cl5"></l><r>étoile<s n="n"/></r></p></e>
-    <e><p><l>sa<s n="n"/><s n="cl5"></l><r>jeu<s n="n"/></r></p></e>
-    <e><p><l>nsa<s n="n"/><s n="cl4"></l><r>étoiles<s n="n"/></r></p></e> 
-    <e><p><l>kǎʼ<b/>mvɛ̀n<s n="n"/><s n="cl5"></l><r>colone<b/>vertebrale<s n="n"/></r></p></e>
-    <e><p><l>ncuǎʼ<b/>nkə̀mbə̀ʼ<s n="n"/></l><r>zone<b/>du<b/>dos<s n=""/></r></p></e> 
+    <e><p><l>sa<s n="n"/><s n="cl5"/></l><r>étoile<s n="n"/></r></p></e>
+    <e><p><l>sa<s n="n"/><s n="cl5"/></l><r>jeu<s n="n"/></r></p></e>
+    <e><p><l>nsa<s n="n"/><s n="cl4"/></l><r>étoiles<s n="n"/></r></p></e> 
+    <e><p><l>kǎʼ<b/>mvɛ̀n<s n="n"/><s n="cl5"/></l><r>colone<b/>vertebrale<s n="n"/></r></p></e>
+    <e><p><l>ncuǎʼ<b/>nkə̀mbə̀ʼ<s n="n"/></l><r>zone<b/>du<b/>dos<s n="POS"/></r></p></e> 
     <e><p><l>nə̂ndiâŋ<s n="n"/></l><r>bas-ventre<s n="n"/></r></p></e>
-    <e><p><l>fʉnkù<s n="n"/><s n="cl3"></l><r>jambe<s n="n"/></r></p></e>	
-    <e><p><l>njàmkù<s n="n"/><s n="cl3"></l><r>mollet<s n="n"/></r></p></e>
-    <e><p><l>mvɛ̀nbu<s n="n"/><s n="cl3"></l><r>revers<b/>de<b/>la<b/>main<s n="n"/></r></p></e>
-    <e><p><l>tǔnbu<s n="n"/><s n="cl3"></l><r>coude<s n="n"/></r></p></e>
-    <e><p><l>mɑ̂dùʼ<s n="n"/><s n="cl1"></l><r>pouce<b/>ou<b/>gros<b/>orteille<s n="n"/></r></p></e>	
-    <e><p><l>ndâdnyaʼ<s n="n"/><s n="cl1"></l><r>index<s n="n"/></r></p></e>
-    <e><p><l>ndâdsog<s n="n"/><s n="cl1"></l><r>index<s n="n"/></r></p></e> 
-    <e><p><l>nsòkwa<s n="n"/><s n="cl1"></l><r>annulaire<s n="n"/></r></p></e>	
-    <e><p><l>nsàtubu<s n="n"/><s n="cl1"></l><r>majeur<s n="pr"/></r></p></e> 
-    <e><p><l>nkědntubu<s n="n"/><s n="cl1"></l><r>auriculaire<s n="n"/></r></p></e> 
-    <e><p><l>ngǎkù<s n="n"/><s n="cl3"></l><r>tendon<b/>d'archille<b/><s n="n"/></r></p></e> 
-    <e><p><l>tǔnkù<s n="n"/><s n="cl3"></l><r>talon<s n="n"/></r></p></e>
-    <e><p><l>mfêʼbu<s n="n"/><s n="cl3"></l><r>interval<b/>entre<b/>les<b>doits<s n="n"/></r></p></e>
-    <e><p><l>bǎmkù<s n="n"/><s n="cl3"></l><r>plante<b/>des<b/>pieds<s n="n"/></r></p></e>
-    <e><p><l>cagə<s n="n"/><s n="cl5"></l><r>estomac<s n="n"/></r></p></e>
-    <e><p><l>nsti<s n="n"/><s n="cl4"></l><r>salive<s n="n"/></r></p></e>
-    <e><p><l>ngùbtu<s n="n"/><s n="cl1"></l><r>cuir<b/>chevelu<s n="n"/></r></p></e>
-    <e><p><l>lɔtɔ<s n="n"/><s n="cl3"></l><r>gorge<s n="n"/></r></p></e>
-    <e><p><l>kɔ̂ntʉ<s n="n"/><s n="cl1"></l><r>coeur<s n="n"/></r></p></e>
-    <e><p><l>kɔ̂ntʉ<s n="n"/><s n="cl1"></l><r>intime<s n="n"/></r></p></e>
-    <e><p><l>ndem<s n="n"/><s n="cl4"></l><r>âme<s n="n"/></r></p></e>
-    <e><p><l>ndem<s n="n"/><s n="cl4"></l><r>conscience<s n="n"/></r></p></e>
-    <e><p><l>zwiàg<s n="n"/><s n="cl5"></l><r>respiration<s n="n"/></r></p></e> 
+    <e><p><l>fʉnkù<s n="n"/><s n="cl3"/></l><r>jambe<s n="n"/></r></p></e>	
+    <e><p><l>njàmkù<s n="n"/><s n="cl3"/></l><r>mollet<s n="n"/></r></p></e>
+    <e><p><l>mvɛ̀nbu<s n="n"/><s n="cl3"/></l><r>revers<b/>de<b/>la<b/>main<s n="n"/></r></p></e>
+    <e><p><l>tǔnbu<s n="n"/><s n="cl3"/></l><r>coude<s n="n"/></r></p></e>
+    <e><p><l>mɑ̂dùʼ<s n="n"/><s n="cl1"/></l><r>pouce<b/>ou<b/>gros<b/>orteille<s n="n"/></r></p></e>	
+    <e><p><l>ndâdnyaʼ<s n="n"/><s n="cl1"/></l><r>index<s n="n"/></r></p></e>
+    <e><p><l>ndâdsog<s n="n"/><s n="cl1"/></l><r>index<s n="n"/></r></p></e> 
+    <e><p><l>nsòkwa<s n="n"/><s n="cl1"/></l><r>annulaire<s n="n"/></r></p></e>	
+    <e><p><l>nsàtubu<s n="n"/><s n="cl1"/></l><r>majeur<s n="pr"/></r></p></e> 
+    <e><p><l>nkědntubu<s n="n"/><s n="cl1"/></l><r>auriculaire<s n="n"/></r></p></e> 
+    <e><p><l>ngǎkù<s n="n"/><s n="cl3"/></l><r>tendon<b/>d'archille<b/><s n="n"/></r></p></e> 
+    <e><p><l>tǔnkù<s n="n"/><s n="cl3"/></l><r>talon<s n="n"/></r></p></e>
+    <e><p><l>mfêʼbu<s n="n"/><s n="cl3"/></l><r>interval<b/>entre<b/>les<b/>doits<s n="n"/></r></p></e>
+    <e><p><l>bǎmkù<s n="n"/><s n="cl3"/></l><r>plante<b/>des<b/>pieds<s n="n"/></r></p></e>
+    <e><p><l>cagə<s n="n"/><s n="cl5"/></l><r>estomac<s n="n"/></r></p></e>
+    <e><p><l>nsti<s n="n"/><s n="cl4"/></l><r>salive<s n="n"/></r></p></e>
+    <e><p><l>ngùbtu<s n="n"/><s n="cl1"/></l><r>cuir<b/>chevelu<s n="n"/></r></p></e>
+    <e><p><l>lɔtɔ<s n="n"/><s n="cl3"/></l><r>gorge<s n="n"/></r></p></e>
+    <e><p><l>kɔ̂ntʉ<s n="n"/><s n="cl1"/></l><r>coeur<s n="n"/></r></p></e>
+    <e><p><l>kɔ̂ntʉ<s n="n"/><s n="cl1"/></l><r>intime<s n="n"/></r></p></e>
+    <e><p><l>ndem<s n="n"/><s n="cl4"/></l><r>âme<s n="n"/></r></p></e>
+    <e><p><l>ndem<s n="n"/><s n="cl4"/></l><r>conscience<s n="n"/></r></p></e>
+    <e><p><l>zwiàg<s n="n"/><s n="cl5"/></l><r>respiration<s n="n"/></r></p></e> 
     <e><p><l>kǐdnsa<s n="n"/></l><r>côte<s n="n"/></r></p></e>
     <e><p><l>njòŋvogə<s n="n"/></l><r>articulation<s n="n"/></r></p></e>
-    <e><p><l>mbàbwʉd<s n="n"/><s n="cl1"></l><r>chair<s n="n"/></r></p></e>
-    <e><p><l>mbàbwʉd<s n="n"/><s n="cl1"></l><r>muscle<s n="n"/></r></p></e>
-    <e><p><l>ngà<s n="n"/><s n="cl3"></l><r>tandon<s n="n"/></r></p></e>
-    <e><p><l>ngà<s n="n"/><s n="cl3"></l><r>nerd<s n="n"/></r></p></e> 
-    <e><p><l>lɑgtùn<s n="n"/><s n="cl3"></l><r>anus<s n="n"/></r></p></e> 
-    <e><p><l>ntɔ̂tùn<s n="n"/></l><s n="cl3"><r>anus<s n="n"/></r></p></e>
-    <e><p><l>nzwìn<s n="n"/><s n="cl5"></l><r>fontanelle<s n="n"/></r></p></e>
+    <e><p><l>mbàbwʉd<s n="n"/><s n="cl1"/></l><r>chair<s n="n"/></r></p></e>
+    <e><p><l>mbàbwʉd<s n="n"/><s n="cl1"/></l><r>muscle<s n="n"/></r></p></e>
+    <e><p><l>ngà<s n="n"/><s n="cl3"/></l><r>tandon<s n="n"/></r></p></e>
+    <e><p><l>ngà<s n="n"/><s n="cl3"/></l><r>nerd<s n="n"/></r></p></e> 
+    <e><p><l>lɑgtùn<s n="n"/><s n="cl3"/></l><r>anus<s n="n"/></r></p></e> 
+    <e><p><l>ntɔ̂tùn<s n="n"/><s n="cl3"/></l><r>anus<s n="n"/></r></p></e>
+    <e><p><l>nzwìn<s n="n"/><s n="cl5"/></l><r>fontanelle<s n="n"/></r></p></e>
     <e><p><l>mbʉ̀m<s n="n"/></l><r>proitrine<s n="n"/></r></p></e>
-    <e><p><l>nkwàtə̀<s n="n"/><s n="cl4"></l><r>pensée<s n="n"/></r></p></e>
-    <e><p><l>tûswə<s n="n"/><s n="cl3"></l><r>honte<s n="n"/></r></p></e>
+    <e><p><l>nkwàtə̀<s n="n"/><s n="cl4"/></l><r>pensée<s n="n"/></r></p></e>
+    <e><p><l>tûswə<s n="n"/><s n="cl3"/></l><r>honte<s n="n"/></r></p></e>
     <e><p><l>bwog<s n="n"/></l><r>peur<s n="n"/></r></p></e>
     <e><p><l>bwɔ̌ntʉ<s n="n"/></l><r>bonté<s n="n"/></r></p></e>
     <e><p><l>cʉagntʉ<s n="n"/></l><r>méchanceté<s n="n"/></r></p></e>
@@ -828,10 +833,10 @@
     <e><p><l>tǎtu<s n="n"/></l><r>entêtement<s n="n"/></r></p></e>
     <e><p><l>cʉ̀ju<s n="n"/></l><r>envier<s n="n"/></r></p></e>
     <e><p><l>nkùʼnì<s n="n"/></l><r>honneur<s n="n"/></r></p></e>
-    <e><p><l>tadtə̀<s n="n"/><s n="cl1"></l><r>mensonge<s n="n"/></r></p></e>		
-    <e><p><l>nənʉnə<s n="n"/><s n="cl1"></l><r>vèrité<s n="n"/></r></p></e>
+    <e><p><l>tadtə̀<s n="n"/><s n="cl1"/></l><r>mensonge<s n="n"/></r></p></e>		
+    <e><p><l>nənʉnə<s n="n"/><s n="cl1"/></l><r>vèrité<s n="n"/></r></p></e>
     <e><p><l>ywɛnə<s n="n"/></l><r>paresse<s n="n"/></r></p></e>
-    <e><p><l>tsiàŋtə̀<s n="n"/><s n="cl5"></l><r>joie<s n="n"/></r></p></e> 
+    <e><p><l>tsiàŋtə̀<s n="n"/><s n="cl5"/></l><r>joie<s n="n"/></r></p></e> 
     <e><p><l>lamtə<s n="n"/></l><r>détour<s n="n"/></r></p></e>
     <e><p><l>kàgnì<s n="n"/></l><r>étourderie<s n="n"/></r></p></e>
     <e><p><l>bîʼtɔ<s n="n"/></l><r>pleureur<s n="n"/></r></p></e>
@@ -846,8 +851,8 @@
     <e><p><l>tà<s n="n"/></l><r>force<s n="n"/></r></p></e>	
     <e><p><l>maŋ<s n="n"/></l><r>force<b/>concurante<s n="n"/></r></p></e>
     <e><p><l>ndʉ̀ʼ<s n="n"/></l><r>force<b/>concurante<s n="n"/></r></p></e>
-    <e><p><l>mbàʼ<s n="n"/><s n="cl3"></l><r>puissance<s n="n"/></r></p></e>
-    <e><p><l>kʉ̂ntʉ<s n="n"/><s n="cl1"></l><r>désir<s n="n"/></r></p></e>
+    <e><p><l>mbàʼ<s n="n"/><s n="cl3"/></l><r>puissance<s n="n"/></r></p></e>
+    <e><p><l>kʉ̂ntʉ<s n="n"/><s n="cl1"/></l><r>désir<s n="n"/></r></p></e>
     <e><p><l>kʉ̂ntʉ<s n="n"/></l><r>soif<s n="n"/></r></p></e>
     <e><p><l>fʉ̀tə̀<s n="n"/></l><r>tromperie<s n="n"/></r></p></e>	
     <e><p><l>badtə̀<s n="n"/></l><r>amadouement<s n="n"/></r></p></e>
@@ -876,9 +881,9 @@
     <e><p><l>màd<s n="n"/></l><r>défaut<s n="n"/></r></p></e>	
     <e><p><l>màd<s n="n"/></l><r>façon<b/>ou<b/>maniere<s n="pr"/></r></p></e> 
     <e><p><l>nkɔ̀nì<s n="n"/></l><r>amour<s n="n"/></r></p></e> 
-    <e><p><l>bàg<s n="pr"/><s n="cl3"></l><r>coté<s n="pr"/></r></p></e> 
-    <e><p><l>bàg<s n="n"/><s n="cl3"></l><r>partie<s n="n"/></r></p></e>
-    <e><p><l>bàgə<s n="vb"/><s n="cl3"></l><r>fendre<s n="vb"/></r></p></e>
+    <e><p><l>bàg<s n="pr"/><s n="cl3"/></l><r>coté<s n="pr"/></r></p></e> 
+    <e><p><l>bàg<s n="n"/><s n="cl3"/></l><r>partie<s n="n"/></r></p></e>
+    <e><p><l>bàgə<s n="vb"/><s n="cl3"/></l><r>fendre<s n="vb"/></r></p></e>
     <e><p><l>bǎgcɛd<s n="n"/></l><r>ardoise<s n="n"/></r></p></e>
     <e><p><l>cɛd<s n="n"/></l><r>tableau<s n="n"/></r></p></e>
     <e><p><l>cɛ̂d<b/>soŋ<s n="n"/></l><r>paneau<b/>publicitaire<s n="n"/></r></p></e>
@@ -890,8 +895,8 @@
     <e><p><l>bǎdndɑ<s n="n"/></l><r>côté<b/>de<b/>la<b/>maison<b/><s n="n"/></r></p></e>
     <e><p><l>bǎdncwɛn<s n="n"/></l><r>morceau<b/>de<b/>bois<b/>fendu<s n="n"/></r></p></e> 
     <e><p><l>bǎgbàg<s n="n"/></l><r>zigzag<s n="n"/></r></p></e>
-    <e><p><l>buʼ<s n="n"/><s n="cl5"></l><r>paquet<s n="n"/></r></p></e>
-    <e><p><l>buʼ<s n="n"/><s n="cl5"></l><r>forêt<s n="n"/></r></p></e>
+    <e><p><l>buʼ<s n="n"/><s n="cl5"/></l><r>paquet<s n="n"/></r></p></e>
+    <e><p><l>buʼ<s n="n"/><s n="cl5"/></l><r>forêt<s n="n"/></r></p></e>
     <e><p><l>buʼkì<s n="n"/></l><r>cahier<s n="n"/></r></p></e>
     <e><p><l>buʼŋwàʼnì<s n="n"/></l><r>livre<s n="n"/></r></p></e>
     <e><p><l>buʼŋwàʼnì<s n="n"/></l><r>papier<s n="n"/></r></p></e> 
@@ -903,9 +908,9 @@
     <e><p><l>nə̀bàʼ<s n="n"/></l><r>tabac<s n="n"/></r></p></e>
     <e><p><l>buʼngwa<s n="n"/></l><r>paquet<b/>de<b/>sel<s n="n"/></r></p></e>
     <e><p><l>tɔ̀<s n="n"/></l><r>commandement<s n="n"/></r></p></e>
-    <e><p><l>fə̀ʼ<s n="n"/><s n="cl3"></l><r>dépendance<b/>d'une<b/>maison<s n="n"/></r></p></e>
-    <e><p><l>fə̌ʼmbogə<s n="n"/><s n="cl1"></l><r>cuisine<s n="n"/></r></p></e>
-    <e><p><l>fə̌ʼncwɛn<s n="n"/><s n="cl1"></l><r>magasin<b/>de<b/>bois<s n="n"/></r></p></e>
+    <e><p><l>fə̀ʼ<s n="n"/><s n="cl3"/></l><r>dépendance<b/>d'une<b/>maison<s n="n"/></r></p></e>
+    <e><p><l>fə̌ʼmbogə<s n="n"/><s n="cl1"/></l><r>cuisine<s n="n"/></r></p></e>
+    <e><p><l>fə̌ʼncwɛn<s n="n"/><s n="cl1"/></l><r>magasin<b/>de<b/>bois<s n="n"/></r></p></e>
     <e><p><l>ɑ̀m<s n="pos"/><s n="cl1"/></l><r>mon<s n="pos"/></r></p></e>
     <e><p><l>ɑm<s n="pos"/><s n="cl3"/></l><r>mon<s n="pos"/></r></p></e>
     <e><p><l>sɑm<s n="pos"/><s n="cl5"/></l><r>mon<s n="pos"/></r></p></e>
@@ -989,7 +994,7 @@
     <e><p><l>mənnî<s n="prn"/><s n="dem"/><s n="cl4"/><s n="pl"/></l><r>ceux-ci<s n="prn"/><s n="m"/><s n="pl"/></r></p></e>
     <e><p><l>cənnî<s n="prn"/><s n="dem"/><s n="cl6"/><s n="pl"/></l><r>ceux-ci<s n="prn"/><s n="m"/><s n="pl"/></r></p></e>
     <e><p><l>yənnɑ<s n="prn"/><s n="dem"/><s n="cl3"/><s n="sg"/></l><r>celui-là<s n="prn"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>sə̂nnɑ<s n="prn"/><s n="dem"/><s n="cl5"><s n="sg"/></l><r>celui-là<s n="prn"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>sə̂nnɑ<s n="prn"/><s n="dem"/><s n="cl5"/><s n="sg"/></l><r>celui-là<s n="prn"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>yənnɑ<s n="prn"/><s n="dem"/><s n="cl1"/><s n="pl"/></l><r>celui-là<s n="prn"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>mənnɑ<s n="prn"/><s n="dem"/><s n="cl6"/><s n="pl"/></l><r>ceux-là<s n="prn"/><s n="m"/><s n="pl"/></r></p></e>
     <e><p><l>cənnɑ<s n="prn"/><s n="dem"/><s n="cl1"/><s n="pl"/></l><r>ceux-là<s n="prn"/><s n="m"/><s n="pl"/></r></p></e>
@@ -1073,7 +1078,7 @@
     <e><p><l>nǔmmbə̌<s n="cnjsub"/></l><r>parce que<s n="cnjsub"/></r></p></e>
     <e><p><l>mbɑ̀<b/>mbɑ<s n="cnjsub"/></l><r>quoique<s n="cnjsub"/></r></p></e>
     <e><p><l>ngə̀laŋ<b/>zə̀<s n="cnjsub"/></l><r>le<b/>temps<b/>que<s n="cnjsub"/></r></p></e>
-    <e><p>dʉ̌ʼ<l><s n="pr"/></l><r>à<s n="pr"/></r></p></e> 
+<!--    <e><p>dʉ̌ʼ<l><s n="pr"/></l><r>à<s n="pr"/></r></p></e> -->
     <e><p><l>a<b/>ghubtə̀<s n="pr"/></l><r>depuis<s n="pr"/></r></p></e>
     <e><p><l>fə<b/>mba<b/>bo<b/>tôʼ<s n="pr"/></l><r>depuis<b/>le<b/>début<b/>de<s n="pr"/></r></p></e> 
     <e><p><l>fe<b/>mbɑ<b/>bo<b/>tsin<s n="pr"/></l><r>depuis<b/>la<b/>fin<b/>de<s n="pr"/></r></p></e> 
@@ -1105,20 +1110,20 @@
     <!--nombres-->
     <e><p><l>ncʉʼ<s n="num"/></l><r>un<s n="num"/></r></p></e>
     <e><p><l>bɑhɑ<s n="num"/></l><r>deux<s n="num"/></r></p></e>
-    <e><p><l>tad</l><s n="num"/><r>trois</r><s n="num"/></p></e>
-    <e><p><l>kuà</l><s n="num"/><r>quatre</r><s n="num"/></p></e>
-    <e><p><l>tɑn</l><s n="num"/><r>cinq</r><s n="num"/></p></e>
-    <e><p><l>ntogə</l><s n="num"/><r>six</r><s n="num"/></p></e>
-    <e><p><l>sɑ̀mmbɑhɑ</l><s n="num"/><r>sept</r><s n="num"/></p></e>
-    <e><p><l>fomə</l><s n="num"/><r>huit</r><s n="num"/></p></e>
-    <e><p><l>bwəʼə</l><s n="num"/><r>neuf</r><s n="num"/></p> </e>
-    <e><p><l>gham</l><s n="num"/><r>dix</r><s n="num"/></p> </e>
+    <e><p><l>tad<s n="num"/></l><r>trois<s n="num"/></r></p></e>
+    <e><p><l>kuà<s n="num"/></l><r>quatre<s n="num"/></r></p></e>
+    <e><p><l>tɑn<s n="num"/></l><r>cinq<s n="num"/></r></p></e>
+    <e><p><l>ntogə<s n="num"/></l><r>six<s n="num"/></r></p></e>
+    <e><p><l>sɑ̀mmbɑhɑ<s n="num"/></l><r>sept<s n="num"/></r></p></e>
+    <e><p><l>fomə<s n="num"/></l><r>huit<s n="num"/></r></p></e>
+    <e><p><l>bwəʼə<s n="num"/></l><r>neuf<s n="num"/></r></p> </e>
+    <e><p><l>gham<s n="num"/></l><r>dix<s n="num"/></r></p> </e>
     <e><p><l><b/>nkʉ<s n="num"/></l><r>cent<s n="num"/></r></p></e>
     <e><p><l><b/>ncaʼ<s n="num"/></l><r>mille<s n="num"/></r></p></e>
-    <e><p><l>mbwə̀</l><s n="nor"><r>premier</r><s n="nor"></p></e>
+<!--    <e><p><l>mbwə̀</l><s n="num"><r>premier</r><s n="num"></p></e>-->
     <e><p><l>fə̌ʼnstə<s n="n"/></l><r>sale<b/>de<b/>bain<s n="n"/></r></p></e>
     <e><p><l>toʼfə̌ʼmbwogə<s n="n"/></l><r>cuisine<b/>interne<b/><s n="n"/></r></p></e>
-    <e><p><l>tsin<s n="n"/><s n="cl3"></l><r>point<s n="n"/></r></p></e>
+    <e><p><l>tsin<s n="n"/><s n="cl3"/></l><r>point<s n="n"/></r></p></e>
     <e><p><l>nə̀<b/>tsinə<s n="vb"/></l><r>arreter<s n="vblex"/></r></p></e>
     <e><p><l>tsin<s n="n"/></l><r>arret<s n="n"/></r></p></e>
     <e><p><l>tsin<b/>mbɛdtə<s n="n"/></l><r>piont<b/>d'intérogation<s n="pr"/></r></p></e>
@@ -1149,7 +1154,7 @@
     <e><p><l>ndɑ<s n="n"/></l><r>héritage<s n="n"/></r></p></e>	
     <e><p><l>ndɑ̂<b/>nǔnɑ̀<s n="n"/></l><r>chambre<b/>d'agriculture<s n="n"/></r></p></e>
     <e><p><l>ndɑ̂nǔntɑnə<s n="n"/></l><r>chambre<b/>de<b/>commerce<s n="n"/></r></p></e>
-    <e><p><l>ngɔ̀<s n="n"/><s n="cl3"></l><r>pays<s n="n"/></r></p></e>	
+    <e><p><l>ngɔ̀<s n="n"/><s n="cl3"/></l><r>pays<s n="n"/></r></p></e>	
     <e><p><l>ngɔ̀<s n="n"/></l><r>groupement<b/>de<b/>village<s n="n"/></r></p></e>
     <e><p><l>ngɔ̀<s n="n"/></l><r>peuple<s n="n"/></r></p></e>
     <e><p><l>ngɔ̀<s n="n"/></l><r>population<s n="n"/></r></p></e>  
@@ -1161,12 +1166,12 @@
     <e><p><l>caʼtɔngɔ̀<s n="n"/></l><r>physiocratie<s n="n"/></r></p></e>
     <e><p><l>dʉbtɔngɔ̀<s n="n"/></l><r>gerentocratie<s n="n"/></r></p></e> 
     <e><p><l>ngʉ'tɔ̀ngɔ<s n="n"/></l><r>tyranie<s n="n"/></r></p></e>
-    <e><p><l>tǎtɔ̀ngɔ̀<s n="n"/><s n="cl3"></l><r>tyranie<s n="n"/></r></p></e> 
+    <e><p><l>tǎtɔ̀ngɔ̀<s n="n"/><s n="cl3"/></l><r>tyranie<s n="n"/></r></p></e> 
     <e><p><l>fə̌ntɔ̀ngɔ̀<b/>bô<b/>nsi<s n="n"/></l><r>monarchie<b/>de<b/>droit<b/>divin<s n="n"/></r></p></e>
     <e><p><l>Tàmtə̀<b/>Bon<b/>Kamerun<s n="n"/></l><r>U.P.C<s n="abbr"/></r></p></e>	
     <e><p><l>Tàmtə̌<b/>Ngɔ̌<b/>Kamerun<s n="n"/></l><r>U.N.C<s n="abbr"/></r></p></e>
     <e><p><l>Mbùmtə̀<b/>Bon<b/>Kamerun<b/>nǔm<b/>ngɔ̌tɔ̀ngɔ̀<s n="n"/></l><r>R.D.P.C<s n="n"/></r></p></e>
-    <e><p><l>kǎmngɔ̀<s n="n"/><s n="cl3"></l><r>province<s n="n"/></r></p></e>
+    <e><p><l>kǎmngɔ̀<s n="n"/><s n="cl3"/></l><r>province<s n="n"/></r></p></e>
     
     <e><p><l>fə̌ʼnstə<s n="n"/><s n="cl5"/></l><r>sale<b/>de<b/>bain<s n="n"/></r></p></e>
     <e><p><l>toʼfə̌ʼmbwogə<s n="n"/><s n="cl1"/></l><r>cuisine<b/>interne<b/><s n="n"/></r></p></e>
@@ -1233,7 +1238,7 @@
     <e><p><l>diaŋntɑnə<s n="n"/></l><r>foir<s n="n"/></r></p></e>
     <e><p><l>ngâbnjʉ<b/>diaŋtsiʼi<s n="n"/></l><r>semaine<b/>culturel<s n="n"/></r></p></e>
     <e><p><l>diaŋnkʉ̀n<s n="n"/></l><r>une<b/>émmision<b/>de<b/>radio/télévision<s n="n"/></r></p></e>
-    <e><p><l>ndǎʼ<b/>bô<s n=""/></l><r>rien<b/>qu’avec<s n=""/></r></p></e>
+    <e><p><l>ndǎʼ<b/>bô<s n="POS"/></l><r>rien<b/>qu’avec<s n="POS"/></r></p></e>
     <e><p><l>lə<s n="n"/></l><r>garnir<s n="n"/></r></p></e>
     <e><p><l>lə̂diaŋ<s n="n"/><s n="cl5"/></l><r>coussin<s n="n"/></r></p></e>
     <e><p><l>lə̂kòʼ<s n="n"/><s n="cl5"/></l><r>coussin<s n="n"/></r></p></e> 
@@ -1250,7 +1255,7 @@
     <e><p><l>kǎmngɔ̀<s n="n"/><s n="cl3"/></l><r>province<s n="n"/></r></p></e>
     <e><p><l>kǎmŋwàʼnì<s n="n"/><s n="cl5"/></l><r>piece<b/>d'un<b/>document<s n="n"/></r></p></e>
     <e><p><l>nyàm<b/>tɑ̂n<b/>kàm<s n="num"/></l><r>cinq<b/>heur<b/>et<b/>démie<s n="num"/></r></p></e>
-    <e><p><l>mə̀<b/>kə̂ʼ<>lɛ̌n<b/>njǒŋ<s n=""/></l><r>je<b/>ne<b/>sais<b/>combien<b/>de<s n=""/></r></p></e>
+    <e><p><l>mə̀<b/>kə̂ʼ<b/>lɛ̌n<b/>njǒŋ<s n="POS"/></l><r>je<b/>ne<b/>sais<b/>combien<b/>de<s n="POS"/></r></p></e>
     <e><p><l>kàmnkòʼ<s n="n"/><s n="cl3"/></l><r>siège<b/>en<b/>bois<s n="n"/></r></p></e>
     <e><p><l>bʉʼ<s n="n"/><s n="cl3"/></l><r>devise<s n="n"/></r></p></e>
     <e><p><l>bʉʼmɛ̀n<s n="n"/><s n="cl3"/></l><r>devise<b/>personnel<s n="n"/></r></p></e>
@@ -1316,7 +1321,7 @@
     <e><p><l>diaŋnyɑ<s n="n"/><s n="cl5"/></l><r>théàtre<b/>tragique<s n="n"/></r></p></e>
     <e><p><l>diaŋzwə<s n="n"/><s n="cl5"/></l><r>théàtre<b/>tragique<s n="n"/></r></p></e>
     <e><p><l>diaŋzwi<s n="n"/></l><r>théàtre<b/>comique<s n="n"/></r></p></e>
-    <e><p><l>nûndùʼ<s n="n"/></l><s n="cl1"/><r>buveur<s n="n"/></r></p></e>
+<!--    <e><p><l>nûndùʼ<s n="n"/></l><s n="cl1"/><r>buveur<s n="n"/></r></p></e>-->
     <e><p><l>mbûmndùʼ<s n="n"/><s n="cl1"/></l><r>ivrogne<b/><s n="n"/></r></p></e>
     <e><p><l>nsôŋcɔ̀<s n="n"/><s n="cl1"/></l><r>compteur<s n="n"/></r></p></e>
     <e><p><l>nsôŋcɔ̀<s n="n"/></l><r>bavard<s n="n"/></r></p></e>
@@ -1510,15 +1515,15 @@
     <e><p><l>ngɑ̂msa<s n="n"/></l><r>savoir<b/>dancer<s n="n"/></r></p></e>
     <e><p><l>ngɑ̂mbàʼ<s n="n"/></l><r>architecture<s n="n"/></r></p></e> 
     <e><p><l>ngɑ̂mfàʼ<s n="n"/></l><r>droit<b/>social<s n="n"/></r></p></e>
-    <e><p><l>ngɑ̂mŋwàʼnì<s n="n"/></l><r>science<b/>de<b/>l'éducation<s n=""/></r></p></e>	
-    <e><p><l>ngɑ̂mnà<s n="n"/></l><r>agronomie<s n=""/></r></p></e>
+    <e><p><l>ngɑ̂mŋwàʼnì<s n="n"/></l><r>science<b/>de<b/>l'éducation<s n="POS"/></r></p></e>	
+    <e><p><l>ngɑ̂mnà<s n="n"/></l><r>agronomie<s n="POS"/></r></p></e>
     <e><p><l>ngɑ̂mnkǒʼntsə<s n="n"/></l><r>science<b/>soumarin<s n="n"/></r></p></e>
     <e><p><l>ngɑ̂mtɔ̂ŋnzə̀<s n="n"/></l><r>ponts<b/>et<b/>chausséee<s n="n"/></r></p></e>
     <e><p><l>ngɑ̂mnù<s n="n"/></l><r>étude<b/>des<b/>affaires<s n="n"/></r></p></e>	
     <e><p><l>ngɑ̂nnjʉ<s n="n"/></l><r>connaissance<b/>du<b/>monde<s n="n"/></r></p></e>
     <e><p><l>ngɑ̂mzwì<s n="n"/></l><r>étude<b/>du<b/>rire<s n="n"/></r></p></e> 
     <e><p><l>ngɑ̂mmiɑg<s n="n"/></l><r>ophtamologie<s n="n"/></r></p></e>	
-    <e><p><l>ngɑ̂mnyàŋ<s n="n"/></l><r>étude<b/>des<b/>poiles<s n=""/></r></p></e> 
+    <e><p><l>ngɑ̂mnyàŋ<s n="n"/></l><r>étude<b/>des<b/>poiles<s n="POS"/></r></p></e> 
     <e><p><l>ngɑ̂mncwɛn<s n="n"/></l><r>menuiserie<s n="n"/></r></p></e> 
     <e><p><l>ngɑ̂mced<s n="n"/></l><r>hygiène<s n="n"/></r></p></e> 
     <e><p><l>kɑ̌nced<s n="n"/></l><r>régles<b/>hygiène<s n="n"/></r></p></e>
@@ -1541,16 +1546,16 @@
     <e><p><l>ncʉ̀ju<s n="adj"/></l><r>envieux<s n="adj"/></r></p></e> 
     <e><p><l>ngàju<s n="n"/></l><r>proprietaire<s n="n"/></r></p></e> 
     <e><p><l>sɑ̌mju<s n="n"/></l><r>rien<s n="n"/></r></p></e>
-    <e><p><l>jûlɛ̀n<s n="n"/><e><p><l>fə<s n="n"/><s n="cl1"/></l><r>papier<s n="n"/></r></p></e></l><r>signe<s n="n"/></r></p></e>
+<!--    <e><p><l>jûlɛ̀n<s n="n"/><e><p><l>fə<s n="n"/><s n="cl1"/></l><r>papier<s n="n"/></r></p></e></l><r>signe<s n="n"/></r></p></e>-->
     <e><p><l>fə<s n="n"/><s n="cl5"/></l><r>papier<s n="n"/></r></p></e>
     <e><p><l>fə<s n="n"/><s n="cl5"/></l><r>aille<s n="n"/></r></p></e> <!-- wing -->
     <e><p><l>fə<s n="n"/><s n="cl5"/></l><r>document<b/>sur<b/>papeir<s n="n"/></r></p></e>
     <e><p><l>fə<s n="n"/><s n="cl5"/></l><r>billet<s n="n"/></r></p></e>
     <e><p><l>fə̌feʼ<s n="n"/><s n="cl5"/></l><r>timbre<s n="n"/></r></p></e>
-    <e><p><l>fə̌feʼ<b/>ncùb<s n=""/><s n="cl5"/></l><r>timbre<b/>fiscal<s n=""/></r></p></e>
+    <e><p><l>fə̌feʼ<b/>ncùb<s n="POS"/><s n="cl5"/></l><r>timbre<b/>fiscal<s n="POS"/></r></p></e>
     <e><p><l>fə̌fe'<b/>nkʉ̀n<s n="n"/><s n="cl5"/></l><r>timbre<b/>postal<s n="n"/></r></p></e>
     <e><p><l>fə̌feʼ<b/>tʉsɔ<s n="n"/><s n="cl5"/></l><r>timbre<b/>communal<s n="n"/></r></p></e>
-    <e><p><l>fə̌<b/>tsiaŋ<s n="n"/><s n="cl5"/></l><r>billet<b/>d/e<b/>'invitation/convocation<s n=""/></r></p></e>
+    <e><p><l>fə̌<b/>tsiaŋ<s n="n"/><s n="cl5"/></l><r>billet<b/>d/e<b/>'invitation/convocation<s n="POS"/></r></p></e>
     <e><p><l>fə̌jun<s n="n"/><s n="cl5"/></l><r>facture<s n="n"/></r></p></e>
     <e><p><l>fə̌kǎʼjun<s n="n"/><s n="cl5"/></l><r>facture<b/>proformat<s n="n"/></r></p></e>
     <e><p><l>fə̌lon<s n="n"/><s n="cl5"/></l><r>billet<b/>de<b/>demande<b/>d'aide<s n="n"/></r></p></e>
@@ -1558,7 +1563,7 @@
     <e><p><l>fə̌nkàʼnì<s n="n"/><s n="cl5"/></l><r>bon<b/>d'engagement<s n="n"/></r></p></e>
     <e><p><l>fə̌fàʼ<s n="n"/><s n="cl5"/></l><r>attestation<b/>de<b/>travaille<s n="n"/></r></p></e>
     <e><p><l>fə̌nkɑ̌nfàʼ<s n="n"/><s n="cl5"/></l><r>contrat<b/>de<b/>travaille<s n="n"/></r></p></e>
-    <e><p><l>fə̌fèd<s n="n"/></l><s n="cl5"/><r>photocopie<s n="n"/></r></p></e>
+<!--    <e><p><l>fə̌fèd<s n="n"/></l><s n="cl5"/><r>photocopie<s n="n"/></r></p></e>-->
     <e><p><l>fə̌bwogtə̀kì<s n="n"/><s n="cl5"/></l><r>papier<b/>carbone<s n="n"/></r></p></e>		
     <e><p><l>fə̌bʉnkɑb<s n="n"/><s n="cl5"/></l><r>chèque<s n="n"/></r></p></e>
     <e><p><l>fə̌<b/>ŋwàʼnì<s n="n"/><s n="cl5"/></l><r>feuille<b/>de<b/>papier<s n="n"/></r></p></e>
@@ -1616,11 +1621,11 @@
     <e><p><l>fə̌kwênkɑb<s n="n"/><s n="cl5"/></l><r>chèque<s n="n"/></r></p></e>
     <e><p><l>fə̌kud<s n="n"/><s n="cl5"/></l><r>permis<b/>de<b/>conduire<b/><s n="n"/></r></p></e>
     <e><p><l>fə̌ntâʼyòŋ<s n="n"/><s n="cl5"/></l><r>permis<b/>de<b/>chasse<s n="n"/></r></p></e>
-    <e><p><l>fə̌yòŋ<s n="n"/></l><s n="cl5"/><r>permis<b/>de<b/>chasse<s n="n"/></r></p></e>
+<!--    <e><p><l>fə̌yòŋ<s n="n"/></l><s n="cl5"/><r>permis<b/>de<b/>chasse<s n="n"/></r></p></e>-->
     <e><p><l>fə̂kə̂bntʉ<s n="n"/><s n="cl5"/></l><r>permis<b/>d'exploitation<b/>forestière<s n="n"/></r></p></e>
     <e><p><l>fə̌maʼnguaʼa<s n="n"/><s n="cl5"/></l><r>attestation<b/>assurance<s n="n"/></r></p></e>
     <e><p><l>fə̌<b/>ndɛ̂n<b/>fu<s n="n"/><s n="cl5"/></l><r>prescription<b/>mèdicale<s n="n"/></r></p></e>
-    <e><p><l>fə̌tɔ̀<s n="n"/><s n="cl5"/></l><r>bulletin<><b/>de<b/>vote<s n="n"/></r></p></e>
+    <e><p><l>fə̌tɔ̀<s n="n"/><s n="cl5"/></l><r>bulletin<b/>de<b/>vote<s n="n"/></r></p></e>
     <e><p><l>fə̌nswɛ̀d<s n="n"/><s n="cl5"/></l><r>papier<b/>hygiènique<s n="n"/></r></p></e>		
     <e><p><l>co'kʉdnjum<s n="n"/><s n="cl5"/></l><r>gomme<s n="n"/></r></p></e>
     <e><p><l>coʼkʉdfi<s n="n"/><s n="cl5"/></l><r>corrector<s n="n"/></r></p></e>
@@ -1638,7 +1643,7 @@
     <e><p><l>sògnsɔ<s n="n"/><s n="cl5"/></l><r>pâte<b/>dentifrice<s n="n"/></r></p></e>	
     <e><p><l>nsògnzwə<s n="n"/><s n="cl1"/></l><r>blanchisseur<s n="n"/></r></p></e>	
     <e><p><l>sòg<b/>mbâbmbabə<s n="adj"/></l><r>savon<b/>en<b/>poudre<s n="adj"/></r></p></e>
-    <e><p><l>zǐ<s n=""/></l><r>précéder<s n=""/></r></p></e>
+    <e><p><l>zǐ<s n="POS"/></l><r>précéder<s n="POS"/></r></p></e>
     <e><p><l>zǐ<s n="vb"/></l><r>commencer<s n="vb"/></r></p></e>
     <e><p><l>zǐkum<s n="n"/><s n="cl5"/></l><r>sous-vêtement<s n="n"/></r></p></e>
     <e><p><l>zǐnzwə<s n="n"/><s n="cl1"/></l><r>jupon<s n="n"/></r></p></e>
@@ -1659,8 +1664,8 @@
     <e><p><l>ŋwàʼnì<b/>swɛ̀n<s n="n"/><s n="cl5"/></l><r>acte<b/>de<b/>vente<s n="n"/></r></p></e>
     <e><p><l>ŋwàʼnì<b/>nkʉ̀nleʼe<s n="n"/></l><r>quoitidien<b/>d'information<s n="n"/></r></p></e> 
     <e><p><l>ŋwàʼnì<b/>nkʉ̌n<b/>ngɑ̀b<s n="n"/></l><r>hebdomadaire<b/>d'information<s n="n"/></r></p></e>
-    <e><p><l>ŋwàʼnì<b/>nkʉ̀n<b/>ŋwʉ<s n="n"/></l><r>mensuel<b/>d'information<s n=""/></r></p></e>	
-    <e><p><l>nkǎm<b/>ŋwàʼnì<s n="n"/><s n="cl1"/></l><r>dossier<s n="abbr."/></r></p></e>
+    <e><p><l>ŋwàʼnì<b/>nkʉ̀n<b/>ŋwʉ<s n="n"/></l><r>mensuel<b/>d'information<s n="POS"/></r></p></e>	
+    <e><p><l>nkǎm<b/>ŋwàʼnì<s n="n"/><s n="cl1"/></l><r>dossier<s n="abbr"/></r></p></e>
     <e><p><l>kǎm<b/>ŋwàʼnì<s n="n"/><s n="cl3"/></l><r>pièce<b/>d'un<b/>dossier<s n="n"/></r></p></e>
     <e><p><l>ŋwàʼnì<b/>ncùb<s n="n"/><s n="cl3"/></l><r>titre<b/>d'impôt<s n="n"/></r></p></e>
     <e><p><l>ŋwàʼnì<b/>kwêntsə<s n="n"/><s n="cl5"/></l><r>attestation<b/>de<b/>baptème<s n="n"/></r></p></e>	
@@ -1678,7 +1683,7 @@
     <e><p><l>fǎʼfeʼ<s n="n"/><s n="cl5"/></l><r>service<b/>des<b/>impôts<s n="n"/></r></p></e>
     <e><p><l>fə̂<b/>lòʼ<b/>fàʼ<s n="n"/><s n="cl5"/></l><r>certificat<b/>de<b/>prise<b/>de<b/>service<s n="n"/></r></p></e>
     <e><p><l>kǔfàʼ<s n="n"/></l><r>méthode<b/>de<b/>travaille<s n="n"/></r></p></e>
-    <e><p><l>bûfàʼ<s n="n"/><s n="cl5"/></l><r>manière<b/>de<b/>travailler<s n=""/></r></p></e>
+    <e><p><l>bûfàʼ<s n="n"/><s n="cl5"/></l><r>manière<b/>de<b/>travailler<s n="POS"/></r></p></e>
     <e><p><l>bûfàʼ<s n="n"/><s n="cl5"/></l><r>style<s n="n"/></r></p></e>
     <e><p><l>kǔmfàʼ<s n="n"/><s n="cl5"/></l><r>syndicat<b/>d'ouvrier<s n="n"/></r></p></e>
     <e><p><l>jûfàʼ<s n="n"/><s n="cl5"/></l><r>outil<s n="n"/></r></p></e> 
