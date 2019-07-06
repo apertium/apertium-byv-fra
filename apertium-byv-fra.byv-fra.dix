@@ -255,7 +255,7 @@
 
       <!-- SECTION: Verbes -->
 
-      <e><p><l>bə<s n="cop"/></l><r>être<s n="vblex"/></r></p></e>
+      <e><p><l>bə<s n="cop"/></l><r>être<s n="vbser"/></r></p></e>
     
       <e><p><l>ba<s n="v"/></l><r>récolter<s n="vblex"/></r></p></e>
       <e><p><l>bagdə<s n="v"/></l><r>endommager<s n="vblex"/></r></p></e>
@@ -453,7 +453,7 @@
       <e><p><l>lɔtə<s n="v"/></l><r>regarder<s n="vblex"/></r></p></e>
       <e><p><l>lə̌<s n="v"/></l><r>cacher<s n="vblex"/></r></p></e>
       <e><p><l>lɛ̀lɛ<s n="v"/></l><r>peser<s n="vblex"/></r></p></e>
-      <e><p><l>nə̀<b/>lɛ̀nə<s n="n"/><s n="vblex"/></l><r>savoire<s n="vb"/></r></p></e>
+      <e><p><l>nə̀<b/>lɛ̀nə<s n="n"/><s n="vblex"/></l><r>savoire<s n="vbhaver"/></r></p></e>
       <e><p><l>maʼa<s n="v"/></l><r>lancer<s n="vblex"/></r></p></e>
       <e><p><l>màʼ<b/>ca<s n="v"/></l><r>emprisonner<s n="vblex"/></r></p></e>    
       <e><p><l>màʼ<b/>ncʉâ<s n="v"/></l><r>vaincre<s n="vblex"/></r></p></e>
