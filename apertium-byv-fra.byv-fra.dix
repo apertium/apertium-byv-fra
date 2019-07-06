@@ -7,6 +7,8 @@
     <sdef n="n"     c="Nom"/>
     <sdef n="v"     c="Verbe lexique"/>
     <sdef n="vblex" c="Verbe lexique"/>
+    <sdef n="vbser" c="Verbe être"/>
+    <sdef n="vbhaver" c="Verbe avoir"/>
     <sdef n="cop"   c="Copula"/>
     <sdef n="num"   c="Numeral"/>
     <sdef n="foc"   c=""/>
